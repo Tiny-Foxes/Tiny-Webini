@@ -103,7 +103,7 @@
     "front-community": [
         {
             "type": "p",
-            "content": "shareFeedBack"
+            "content": "shareFeedback"
         },
         {
             "type": "p",
@@ -202,7 +202,7 @@
         },
         {
             "type": "p",
-            "content": "whoIsJosevarela",
+            "content": "whoIsJoseVarela",
             "jumpLine": true
         },
         {
@@ -237,7 +237,7 @@
             "jumpLine": true
         }
     ],
-    "static-pages-add-ons.noteskin": [
+    "static-pages-add-ons.noteskins": [
         {
             "type": "p",
             "content": "outfoxNoteskinSupport"
@@ -307,11 +307,13 @@
             "childrens": [
                 {
                     "type": "a",
-                    "content": "download"
+                    "content": "download",
+                    "properties": "class=\"btn btn-primary\" href=\"https://github.com/TeamRizu/Texture-Font-Generator-2020-Squirrel/releases/latest\""
                 },
                 {
                     "type": "a",
                     "content": "github",
+                    "properties": "class=\"btn btn-light\" href=\"https://github.com/TeamRizu/Texture-Font-Generator-2020-Squirrel\"",
                     "jumpLine": true
                 }
             ]
@@ -411,6 +413,7 @@
             "type": "blockquote",
             "properties": "class=\"blockquote\"",
             "jumpLine": true,
+            "content": "",
             "childrens": [
                 {
                     "type": "p",
@@ -558,6 +561,11 @@
         },
         {
             "type": "h1",
+            "content": "macOS",
+            "jumpLine": true
+        },
+        {
+            "type": "h2",
             "content": "issueLaunching",
             "jumpLine": true
         },
@@ -640,6 +648,113 @@
         {
             "type": "p",
             "content": "mapControllerImg",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "mapControllerTutorial",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "mapControllerTutorialImg",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "mapControllerRecommendations",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "mapControllerDidntWork",
+            "jumpLine": true
+        },
+        {
+            "type": "h2",
+            "content": "stepThree",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "sdlGamepadTool",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "sdlGamepadToolImg",
+            "jumpLine": true
+        },
+        {
+            "type": "ol",
+            "content": "",
+            "jumpLine": true,
+            "childrens": [
+                {
+                    "type": "li",
+                    "content": "createNewMapping",
+                    "jumpLine": true
+                },
+                {
+                    "type": "li",
+                    "content": "pressInputToMap",
+                    "jumpLine": true
+                },
+                {
+                    "type": "li",
+                    "content": "skipRest",
+                    "jumpLine": true
+                },
+                {
+                    "type": "li",
+                    "content": "saveMappingString",
+                    "jumpLine": true
+                },
+                {
+                    "type": "li",
+                    "content": "copyMappingString",
+                    "jumpLine": true
+                },
+                {
+                    "type": "li",
+                    "content": "pasteGameControllerData",
+                    "jumpLine": true
+                }
+            ]
+        },
+        {
+            "type": "h3",
+            "content": "aNote",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "gameControllerLogImg",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "hastagUseful",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "hashtagBasicExplanation",
+            "jumpLine": true
+        },
+        {
+            "type": "h2",
+            "content": "stillNothing",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "possibleProblems",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "possibleSolutions",
             "jumpLine": true
         }
     ]
