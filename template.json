@@ -1,0 +1,490 @@
+{
+    "NotFound-text": [
+        {
+            "type": "h3",
+            "content": "pageNotFound"
+        },
+        {
+            "type": "p",
+            "content": "pageNotFoundExplanation",
+            "jumpLine": true
+        }
+    ],
+    "about-sm53": [
+        {
+            "type": "h1",
+            "content": "whatIsOutFox"
+        },
+        {
+            "type": "p",
+            "content": "whatIsOutFoxExplanation",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "whatIsOutFoxSupport",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "whatIsOutFoxFiveOne",
+            "jumpLine": true
+        }
+    ],
+    "alpha-notice": [
+        {
+            "type": "h2",
+            "content": "notices",
+            "properties": "class=\"alert-heading\""
+        },
+        {
+            "type": "ul",
+            "content": "",
+            "jumpLine": true,
+            "childrens": [
+                {
+                    "type": "li",
+                    "content": "whereToReportExplanation",
+                    "jumpLine": true
+                },
+                {
+                    "type": "li",
+                    "content": "whenUpgradingExplanation",
+                    "jumpLine": true
+                },
+                {
+                    "type": "li",
+                    "content": "controllerProblemsExplanation",
+                    "jumpLine": true
+                },
+                {
+                    "type": "li",
+                    "content": "armBuildExplanation",
+                    "jumpLine": true
+                },
+                {
+                    "type": "li",
+                    "content": "macBuildExplanation",
+                    "jumpLine": true
+                }
+            ]
+        }
+    ],
+    "archieved-release": [
+        {
+            "type": "h2",
+            "properties": "class=\"alert-heading\"",
+            "content": "archived"
+        },
+        {
+            "type": "p",
+            "content": "archivedExplanation",
+            "jumpLine": true
+        }
+    ],
+    "footer-license": [
+        {
+            "type": "p",
+            "content": "websiteAvailableUnder"
+        },
+        {
+            "type": "p",
+            "content": "",
+            "jumpLine": true,
+            "childrens": [
+                {
+                    "type": "a",
+                    "content": "communityGuidelines",
+                    "properties": "href=\"https://projectmoon.dance/community-polices\""
+                }
+            ]
+        }
+    ],
+    "front-community": [
+        {
+            "type": "p",
+            "content": "shareFeedBack"
+        },
+        {
+            "type": "p",
+            "content": "supportTeamRizu",
+            "jumpLine": true
+        }
+    ],
+    "front-welcome": [
+        {
+            "type": "p",
+            "content": "homeOfStepMania"
+        },
+        {
+            "type": "p",
+            "content": "homeOfStepManiaExplanation",
+            "jumpLine": true 
+        }
+    ],
+    "hero-intro": [
+        {
+            "type": "p",
+            "properties": "class=\"hero-para\"",
+            "content": "outfoxIntro"
+        }
+    ],
+    "maintenance-text": [
+        {
+            "type": "p",
+            "content": "maintenanceExplanation"
+        }
+    ],
+    "static-pages-about": [
+        {
+            "type": "p",
+            "content": "whatIsMoondanceExplanation"
+        },
+        {
+            "type": "p",
+            "content": "originsOfMoondance",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "plansOfMoondance",
+            "jumpLine": true
+        },
+        {
+            "type": "h2",
+            "content": "theTeam",
+            "jumpLine": true
+        },
+        {
+            "type": "h3",
+            "content": "crystalSquirrel",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "whoIsSquirrel",
+            "jumpLine": true
+        },
+        {
+            "type": "h3",
+            "content": "jousway",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "whoIsJousway",
+            "jumpLine": true 
+        },
+        {
+            "type": "h3",
+            "content": "mrThatKid",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "whoIsMrthatkid",
+            "jumpLine": true
+        },
+        {
+            "type": "h3",
+            "content": "cube",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "whoIsCube",
+            "jumpLine": true
+        },
+        {
+            "type": "h3",
+            "content": "joseVarela",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "whoIsJosevarela",
+            "jumpLine": true
+        },
+        {
+            "type": "h3",
+            "content": "lirodon",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "whoIsLirodon",
+            "jumpLine": true
+        },
+        {
+            "type": "h1",
+            "content": "aboutOutFox",
+            "jumpLine": true,
+            "properties": "class=\"page-title\""
+        },
+        {
+            "type": "p",
+            "content": "whatIsOutFox",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "outfoxCompatibility",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "outfoxIsFiveTwo",
+            "jumpLine": true
+        }
+    ],
+    "static-pages-add-ons.noteskin": [
+        {
+            "type": "p",
+            "content": "outfoxNoteskinSupport"
+        },
+        {
+            "type": "p",
+            "content": "howToInstallNoteskins",
+            "jumpLine": true
+        },
+        {
+            "type": "h1",
+            "content": "forOutFox",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "",
+            "jumpLine": true,
+            "childrens": [
+                {
+                    "type": "em",
+                    "content": "comingSoon"
+                }
+            ]
+        },
+        {
+            "type": "h2",
+            "content": "forFive",
+            "jumpLine": true
+        },
+        {
+            "type": "h3",
+            "content": "jousway",
+            "jumpLine": true
+        },
+        {
+            "type": "h3",
+            "content": "haley",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "visitHaleyWebsite",
+            "jumpLine": true
+        }
+    ],
+    "static-pages-addons": [
+        {
+            "type": "h1",
+            "content": "textureFontGenerator"
+        },
+        {
+            "type": "p",
+            "content": "textureFontGeneratorLogo",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "textureFontGeneratorExplanation",
+            "jumpLine": true
+        },
+        {
+            "type": "div",
+            "content": "",
+            "jumpLine": true,
+            "properties": "class=\"btn-group\"",
+            "childrens": [
+                {
+                    "type": "a",
+                    "content": "download"
+                },
+                {
+                    "type": "a",
+                    "content": "github",
+                    "jumpLine": true
+                }
+            ]
+        }
+    ],
+    "static-pages-faq": [
+        {
+            "type": "h1",
+            "content": "general"
+        },
+        {
+            "type": "h2",
+            "content": "whatIsFiveThree",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "whatIsFiveThreeExplanation",
+            "jumpLine": true
+        },
+        {
+            "type": "h2",
+            "content": "whatIsMoondance",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "whatIsMoondanceExplanation",
+            "jumpLine": true
+        },
+        {
+            "type": "h2",
+            "content": "willItWorkWithOldStuff",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "outfoxCompatibility",
+            "jumpLine": true
+        },
+        {
+            "type": "h3",
+            "content": "noteForDevs",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "cmdIsDeprecating",
+            "jumpLine": true
+        },
+        {
+            "type": "h2",
+            "content": "outfoxWithOtherVersions",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "outfoxPortableMode",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "shareContentWithMultipleBuilds",
+            "jumpLine": true
+        },
+        {
+            "type": "h2",
+            "content": "willThereBeOnlineSupport",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "smoIsDeprecated",
+            "jumpLine": true
+        },
+        {
+            "type": "h2",
+            "content": "whereIsTheSource",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "whyItsClosedSource",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "howWeWillReleaseTheSource",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "anyQuestionsAboutTheSource",
+            "jumpLine": true
+        },
+        {
+            "type": "blockquote",
+            "properties": "class=\"blockquote\"",
+            "jumpLine": true,
+            "childrens": [
+                {
+                    "type": "p",
+                    "jumpLine": true,
+                    "content": "whyOutfoxStarted"
+                },
+                {
+                    "type": "p",
+                    "jumpLine": true,
+                    "content": "backwardCompatiblity"
+                },
+                {
+                    "type": "p",
+                    "content": "closedSourceProcess",
+                    "jumpLine": true
+                },
+                {
+                    "type": "footer",
+                    "properties": "class=\"blockquote-footer\"",
+                    "content": "squirrel"
+                }
+            ]
+        },
+        {
+            "type": "h2",
+            "jumpLine": true,
+            "content": "howCanIContribute"
+        },
+        {
+            "type": "ul",
+            "content": "",
+            "jumpLine": true,
+            "childrens": [
+                {
+                    "type": "li",
+                    "jumpLine": true,
+                    "content": "reportingBugs"
+                },
+                {
+                    "type": "li",
+                    "jumpLine": true,
+                    "content": "joiningTinyFoxes"
+                }
+            ]
+        },
+        {
+            "type": "h2",
+            "content": "whatIsFiveTwoWhySkip",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "fiveTwoBrokeCompatibility",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "fiveTwoCancelled",
+            "jumpLine": true
+        },
+        {
+            "type": "h1",
+            "content": "technical",
+            "jumpLine": true
+        },
+        {
+            "type": "h2",
+            "content": "controllerDoesntWork",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "xinputCompliant",
+            "jumpLine": true
+        }
+    ]
+}
