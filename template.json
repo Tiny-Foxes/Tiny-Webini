@@ -485,6 +485,162 @@
             "type": "p",
             "content": "xinputCompliant",
             "jumpLine": true
+        },
+        {
+            "type": "p",
+            "jumpLine": true,
+            "content": "xinputAndLegacyExplanation"
+        },
+        {
+            "type": "h2",
+            "jumpLine": true,
+            "content": "lagWithRecentProcessor"
+        },
+        {
+            "type": "p",
+            "content": "lagWithRecentProcessorExplanation",
+            "jumpLine": true
+        },
+        {
+            "type": "h2",
+            "content": "simplyLoveCompatibility",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "simplyLoveCompatibilityExplanation",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "simplyLoveCompatibilityRemoveCheck",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "simplyLoveCompatibilityRemovingCheckFrom",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "to",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "simplyLoveCompatibilityRemovingCheckTo",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "simplyLoveCompatibilityWhy",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "simplyLoveTinyFoxesFork",
+            "jumpLine": true
+        },
+        {
+            "type": "h1",
+            "content": "linux",
+            "jumpLine": true
+        },
+        {
+            "type": "h2",
+            "content": "libOpenGLError",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "libOpenGLFix",
+            "jumpLine": true
+        },
+        {
+            "type": "h1",
+            "content": "issueLaunching",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "noNoteskinsFound",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "quarantineFix",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "alternativePath",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "olderMacBuilds",
+            "jumpLine": true
+        },
+        {
+            "type": "h2",
+            "content": "smallRenderingWindow",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "smallRenderingWindowFix",
+            "jumpLine": true
+        }
+    ],
+    "static-pages-help-support": [
+        {
+            "type": "p",
+            "content": "xinputSwitch"
+        },
+        {
+            "type": "p",
+            "content": "xinputSwitchAffectedDevices",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "thankJosenTiamat",
+            "jumpLine": true
+        },
+        {
+            "type": "h2",
+            "content": "stepOne",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "configKeyMappings",
+            "jumpLine": true
+        },
+        {
+            "type": "h3",
+            "content": "configKeyMappingsImpossible",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "configKeyMappingsTestInput",
+            "jumpLine": true
+        },
+        {
+            "type": "h2",
+            "content": "stepTwo",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "builtGamepadTool",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "mapControllerImg",
+            "jumpLine": true
         }
     ]
 }

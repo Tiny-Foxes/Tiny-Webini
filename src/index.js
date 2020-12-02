@@ -13,6 +13,7 @@ for (let i = 0; i < htmlFiles.length; i++) {
     const bornLine = (currentFile) => {
         for (let l = 0; l < currentFile.length; l++) {
             const line = currentFile[l]
+            if (!translationSection) continue
             if (line.jumpLine) content += '\n'
             content += line.properties ? `<${line.type} ${line.properties}>` : `<${line.type}>`
             content += `${translationSection[line.content === "" ? "" : line.content]}`
@@ -29,6 +30,6 @@ for (let i = 0; i < htmlFiles.length; i++) {
     if (!htmlFiles[i].includes('static-pages-')) {
         fs.writeFileSync(`${htmlFiles[i]}-${translation.Common.LanguageCode}.htm`, content)
     } else {
-        fs.writeFileSync(htmlFiles[i].htm, content)
+        fs.writeFileSync(htmlFiles[i] + '.htm', content)
     }
 }
