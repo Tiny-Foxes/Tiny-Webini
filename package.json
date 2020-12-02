@@ -1,7 +1,7 @@
 {
-  "name": "webini",
+  "name": "tiny-webini",
   "version": "1.0.0",
-  "description": "",
+  "description": "Translate Project Moondance like StepMania",
   "main": "src/index.js",
   "dependencies": {
     "ini-parser": "^0.0.2"
@@ -17,7 +17,7 @@
     "ini"
   ],
   "author": "Jorge Luiz Souza Xavier",
-  "license": "ISC",
+  "license": "Apache License 2.0",
   "bugs": {
     "url": "https://github.com/moruzerinho6/Webini/issues"
   },
