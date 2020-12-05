@@ -4,6 +4,7 @@ const path = require('path')
 const translation = parser.parseFileSync(path.join(__dirname, '../translated.ini'))
 const template = require('../template.json')
 const htmlFiles = Object.keys(template)
+const languageCode = translation.Common.LanguageCode === "en" ? "" : `-${translation.Common.LanguageCode}`
 let allReady = false
 
 for (let i = 0; i < htmlFiles.length; i++) {
@@ -28,17 +29,17 @@ for (let i = 0; i < htmlFiles.length; i++) {
     bornLine(currentFile)
 
     if (!htmlFiles[i].includes('static-pages-')) {
-        fs.writeFileSync(`${htmlFiles[i]}-${translation.Common.LanguageCode}.htm`, content)
+        fs.writeFileSync(`${htmlFiles[i]}${languageCode}.htm`, content)
     } else {
         fs.writeFileSync(htmlFiles[i] + '.htm', content)
     }
 
-    if ((i + 1)=== htmlFiles.length) {
+    if ((i + 1) === htmlFiles.length) {
         allReady = true
     }
 }
 
-fs.mkdir('static-pages', { recursive: true }, err => {
+fs.mkdir('static-pages' + languageCode, { recursive: true }, err => {
     if (err) {
         console.log(err)
     }
@@ -52,7 +53,7 @@ for (let i = 0; i < files.length; i++) {
         i = i - 1
         continue // Don't cringe me
     }
-    fs.rename(files[i], `static-pages/${files[i].replace('static-pages-', '')}`, (err) => {
+    fs.rename(files[i], `static-pages${languageCode}/${files[i].replace('static-pages-', '')}`, (err) => {
         if (err) console.log(err)
     })
 }
