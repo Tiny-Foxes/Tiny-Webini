@@ -14,18 +14,21 @@ for (let i = 0; i < htmlFiles.length; i++) {
     const bornLine = (currentFile) => {
         for (let l = 0; l < currentFile.length; l++) {
             const line = currentFile[l]
-            if (!translationSection) continue
+            if (!translationSection) {
+                continue
+            }
             if (line.jumpLine) content += '\n'
             content += line.properties ? `<${line.type} ${line.properties}>` : `<${line.type}>`
-            content += `${line.content === "" ? "" : translationSection[line.content]}`
+            content += `${line.content === "" || !line.content ? "" : translationSection[line.content]}`
             if (line.childrens) {
                 bornLine(line.childrens)
             }
 
-            content += line.noCloseTag ? `<${line.type}>` : `</${line.type}>`
+            content += line.noCloseTag ? `>` : `</${line.type}>`
 
         }
     }
+    console.log(currentFile)
     bornLine(currentFile)
 
     if (!htmlFiles[i].includes('static-pages-')) {
