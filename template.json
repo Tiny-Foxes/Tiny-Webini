@@ -122,6 +122,35 @@
             "jumpLine": true 
         }
     ],
+    "front-what-is-outfox": [
+        {
+            "type": "h1",
+            "properties": "class\"page-title\"",
+            "content": "whatIsOutFox"
+        },
+        {
+            "type": "p",
+            "jumpLine": true,
+            "content": "whatIsOutFoxExplanation"
+        },
+        {
+            "type": "p",
+            "jumpLine": true,
+            "content": "outfoxFocus"
+        }
+    ],
+    "front-what-is-stepmania": [
+        {
+            "type": "h1",
+            "properties": "class\"page-title\"",
+            "content": "whatIsStepmania"
+        },
+        {
+            "type": "p",
+            "jumpLine": true,
+            "content": "whatIsStepmaniaExplanation"
+        }
+    ],
     "hero-intro": [
         {
             "type": "p",
