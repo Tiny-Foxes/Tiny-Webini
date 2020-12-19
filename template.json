@@ -2317,6 +2317,885 @@
                     "content": "judgmentFixes"
                 }
             ]
+        },
+        {
+            "type": "h2",
+            "jumpLine": true,
+            "content": "b03"
+        },
+        {
+            "type": "ul",
+            "jumpLine": true,
+            "childrens": [
+                {
+                    "type": "li",
+                    "content": "fixedFitnessGoalYPositioning"
+                },
+                {
+                    "type": "li",
+                    "content": "movedNewFontsFromDefault"
+                },
+                {
+                    "type": "li",
+                    "content": "implementedFloorReflectionCharacters"
+                },
+                {
+                    "type": "li",
+                    "content": "addedSupportRateEditMode"
+                },
+                {
+                    "type": "li",
+                    "content": "remadeImplementationCameras"
+                },
+                {
+                    "type": "li",
+                    "content": "automatedNumCamerasStages"
+                },
+                {
+                    "type": "li",
+                    "content": "updatedDCDDocumentation"
+                },
+                {
+                    "type": "li",
+                    "content": "replacedCheckOnLocationSetting"
+                },
+                {
+                    "type": "li",
+                    "content": "readdedMusicRateModelRateUpdater"
+                }
+            ]
+        },
+        {
+            "type": "h2",
+            "jumpLine": true,
+            "content": "b02"
+        },
+        {
+            "type": "ul",
+            "jumpLine": true,
+            "childrens": [
+                {
+                    "type": "li",
+                    "content": "soundwavesRefreshUpdates"
+                },
+                {
+                    "type": "li",
+                    "content": "timingLuaRemoveAddSecondsFunction"
+                },
+                {
+                    "type": "li",
+                    "content": "proHandlingNoteskinFixes"
+                },
+                {
+                    "type": "li",
+                    "content": "fallbackNoteskinHandingFixes"
+                },
+                {
+                    "type": "li",
+                    "content": "luaTrashGarbageCollectionFixes"
+                },
+                {
+                    "type": "li",
+                    "content": "fixedTypeCasting"
+                },
+                {
+                    "type": "li",
+                    "content": "fixedAutoplayBehaviorProJudgments"
+                }
+            ]
+        },
+        {
+            "type": "p",
+            "jumpLine": true,
+            "content": "proJudgmentBugExplanation"
+        },
+        {
+            "type": "h2",
+            "jumpLine": true,
+            "content": "b01"
+        },
+        {
+            "type": "ul",
+            "jumpLine": true,
+            "childrens": [
+                {
+                    "type": "li",
+                    "content": "changesSoundwavesDCD"
+                },
+                {
+                    "type": "li",
+                    "content": "increaseSpeedLimitDancers"
+                },
+                {
+                    "type": "li",
+                    "content": "removeClampModelRate"
+                },
+                {
+                    "type": "li",
+                    "content": "addedTransparentGraphDisplayScatterplot"
+                },
+                {
+                    "type": "li",
+                    "content": "fixedMaxComboGameplayStatsDisplay"
+                },
+                {
+                    "type": "li",
+                    "content": "addedStepcircleGraphicBeginnerHelper"
+                },
+                {
+                    "type": "li",
+                    "content": "cleanedUpSomePrints"
+                }
+            ]
+        },
+        {
+            "type": "h2",
+            "content": "b00",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "jumpLine": true,
+            "childrens": [
+                {
+                    "type": "strong",
+                    "jumpLine": true,
+                    "content": "beganCodeEvaluationReleaseCandidate"
+                }
+            ]
+        },
+        {
+            "type": "p",
+            "jumpLine": true,
+            "content": "engineCodePreviusBuildsExplanation"
+        },
+        {
+            "type": "h2",
+            "jumpLine": true,
+            "content": "a14"
+        },
+        {
+            "type": "ul",
+            "jumpLine": true,
+            "childrens": [
+                {
+                    "type": "li",
+                    "content": "researched64BitImplementation"
+                },
+                {
+                    "type": "li",
+                    "content": "fixedCrashHandlerArchWin32"
+                },
+                {
+                    "type": "li",
+                    "content": "createdChartStatsAMV"
+                },
+                {
+                    "type": "li",
+                    "content": "addedIconDisplayStepType"
+                },
+                {
+                    "type": "li",
+                    "content": "created2StagesDedicatedCharacterDisplay"
+                },
+                {
+                    "type": "li",
+                    "content": "fixedContextHandlingWindows64Bit"
+                },
+                {
+                    "type": "li",
+                    "content": "fixedDefaultMixedCaseFolderNames"
+                },
+                {
+                    "type": "li",
+                    "content": "exposedPolygonmodePolygonlinewidthActors"
+                },
+                {
+                    "type": "li",
+                    "content": "fixDeletedStagesPreventCheckUnreferencedStages"
+                },
+                {
+                    "type": "li",
+                    "content": "optimisedThemeFunctionsMoreModernMethods"
+                },
+                {
+                    "type": "li",
+                    "content": "researchedSDL2ImplementationRaspberryPi2"
+                },
+                {
+                    "type": "li",
+                    "content": "beganSereneOGLTestingGL3"
+                }
+            ]
+        },
+        {
+            "type": "h2",
+            "jumpLine": true,
+            "content": "a13"
+        },
+        {
+            "type": "ul",
+            "jumpLine": true,
+            "childrens": [
+                {
+                    "type": "li",
+                    "content": "dedicatedCharacterDisplayReimplemented"
+                },
+                {
+                    "type": "li",
+                    "content": "beginnerHelperImplementedViaLua"
+                },
+                {
+                    "type": "li",
+                    "content": "fixedErrorPreventingGLESReturningNull"
+                },
+                {
+                    "type": "li",
+                    "content": "implementedRageColorModifiers"
+                },
+                {
+                    "type": "li",
+                    "content": "fixedDeltatimeConversions"
+                }
+            ]
+        },
+        {
+            "type": "h2",
+            "content": "a12",
+            "jumpLine": true
+        },
+        {
+            "type": "ul",
+            "jumpLine": true,
+            "childrens": [
+                {
+                    "type": "li",
+                    "content": "fixedMemoryLeaksTextureGeneration"
+                },
+                {
+                    "type": "li",
+                    "content": "fixedAccessExceptionAFTs"
+                },
+                {
+                    "type": "li",
+                    "content": "editedCMakeProperlyUnderstandLibraries"
+                },
+                {
+                    "type": "li",
+                    "content": "fixedVariableDereferenceFontManager"
+                },
+                {
+                    "type": "li",
+                    "content": "removedGenerationMultipleStack"
+                },
+                {
+                    "type": "li",
+                    "content": "fixedWhleHostTyposEngine"
+                },
+                {
+                    "type": "li",
+                    "content": "fixedDereferencePointsFunctions"
+                },
+                {
+                    "type": "li",
+                    "content": "fixedTextureLeakMethod"
+                }
+            ]
+        },
+        {
+            "type": "h2",
+            "content": "a11",
+            "jumpLine": true
+        },
+        {
+            "type": "ul",
+            "jumpLine": true,
+            "childrens": [
+                {
+                    "type": "li",
+                    "content": "fixedMassiveMemoryLeakTextureGeneration"
+                },
+                {
+                    "type": "li",
+                    "content": "removedDDRTextureFunction"
+                },
+                {
+                    "type": "li",
+                    "content": "fixedStreamlinedAspectsRageMathRageMatrix"
+                },
+                {
+                    "type": "li",
+                    "content": "modifiedLoadingMethodsStopJunkDataOverloading"
+                },
+                {
+                    "type": "li",
+                    "content": "addedGFXWindowPreparationsLLWDeprecation"
+                },
+                {
+                    "type": "li",
+                    "content": "addedPreferenceOptionsDeprecationFFPipeline"
+                },
+                {
+                    "type": "li",
+                    "content": "fixedMathOverflowsAFTs"
+                },
+                {
+                    "type": "li",
+                    "content": "fixedOrderExecutionSeveralFunctions"
+                },
+                {
+                    "type": "li",
+                    "content": "tweakingMediaLoading"
+                },
+                {
+                    "type": "li",
+                    "content": "addedNewFixesModifiersForNewOptions"
+                },
+                {
+                    "type": "li",
+                    "content": "linuxRegressionOverflowRagePALTextures"
+                },
+                {
+                    "type": "li",
+                    "content": "fixedBugDDRCodeNotBeingUsed"
+                }
+            ]
+        },
+        {
+            "type": "h2",
+            "content": "a10",
+            "jumpLine": true
+        },
+        {
+            "type": "ul",
+            "jumpLine": true,
+            "childrens": [
+                {
+                    "type": "li",
+                    "content": "implementedHoldOrientationTravel"
+                },
+                {
+                    "type": "li",
+                    "content": "removedLambdaTheme"
+                },
+                {
+                    "type": "li",
+                    "content": "introducedSoundwavesTheme"
+                },
+                {
+                    "type": "li",
+                    "content": "SIGSEGVFixedOverflow"
+                },
+                {
+                    "type": "li",
+                    "content": "addedWideDoubleSupportSMX"
+                },
+                {
+                    "type": "li",
+                    "content": "increasedTextureUnitEnumSize"
+                },
+                {
+                    "type": "li",
+                    "content": "increaseLogFileSizeLimit2MB"
+                },
+                {
+                    "type": "li",
+                    "content": "allowLoadBonesStackAnimations"
+                },
+                {
+                    "type": "li",
+                    "content": "addedControlsColumnSpecificBumpy"
+                },
+                {
+                    "type": "li",
+                    "content": "changedBufferTimeDeletingCachedTextures"
+                },
+                {
+                    "type": "li",
+                    "content": "modernFFMPEGTestingEvaluation"
+                },
+                {
+                    "type": "li",
+                    "content": "libMADAlternativeResearchDevelopment"
+                },
+                {
+                    "type": "li",
+                    "content": "MP3ImplementationResearchDevelopment"
+                }
+            ]
+        },
+        {
+            "type": "h2",
+            "content": "a09",
+            "jumpLine": true
+        },
+        {
+            "type": "ul",
+            "jumpLine": true,
+            "childrens": [
+                {
+                    "type": "li",
+                    "content": "fixScreenshotsRGB2BGR"
+                },
+                {
+                    "type": "li",
+                    "content": "addedLevelsScreenshots"
+                },
+                {
+                    "type": "li",
+                    "content": "liboggUpdated"
+                },
+                {
+                    "type": "li",
+                    "content": "libvorbisUpdated"
+                },
+                {
+                    "type": "li",
+                    "content": "zlibUpdated"
+                },
+                {
+                    "type": "li",
+                    "content": "tommathUpdated"
+                },
+                {
+                    "type": "li",
+                    "content": "tomscryptUpdated"
+                },
+                {
+                    "type": "li",
+                    "content": "libprceUpdated"
+                },
+                {
+                    "type": "li",
+                    "content": "fixedHoldBehaviorTipsy"
+                },
+                {
+                    "type": "li",
+                    "content": "fixedFFMPEGMemoryLeaks"
+                },
+                {
+                    "type": "li",
+                    "content": "screenGameplayMemoryLeaksArrowGeneration"
+                },
+                {
+                    "type": "li",
+                    "content": "implementedExtendHoldsModifier"
+                },
+                {
+                    "type": "li",
+                    "content": "massiveFixSpreeMemoryLeaksTextureAssetManagement"
+                },
+                {
+                    "type": "li",
+                    "content": "reloadingThemesMemoryLeakFixed"
+                },
+                {
+                    "type": "li",
+                    "content": "OGLTweaksImproveFrameResponse"
+                },
+                {
+                    "type": "li",
+                    "content": "pipelineModifiedAllowHigherCPULoad"
+                },
+                {
+                    "type": "li",
+                    "content": "ActorFrameTextureReworked"
+                }
+            ]
+        },
+        {
+            "type": "h2",
+            "content": "a08",
+            "jumpLine": true
+        },
+        {
+            "type": "ul",
+            "jumpLine": true,
+            "childrens": [
+                {
+                    "type": "li",
+                    "content": "removalIteratorsWithinFixedPipeline"
+                },
+                {
+                    "type": "li",
+                    "content": "modernisingRageAssetManagement"
+                },
+                {
+                    "type": "li",
+                    "content": "clangMiscAcrossCodeBase"
+                },
+                {
+                    "type": "li",
+                    "content": "preliminarySMX5PanelSupport"
+                },
+                {
+                    "type": "li",
+                    "content": "SM5NoteskinsFolderMovedApperance"
+                },
+                {
+                    "type": "li",
+                    "content": "nativeThemeNoteskinSupport"
+                },
+                {
+                    "type": "li",
+                    "content": "toastiesMediaAddedApperanceFolder"
+                },
+                {
+                    "type": "li",
+                    "content": "addedOriginalFolderLocationSupport"
+                },
+                {
+                    "type": "li",
+                    "content": "fixHoldJudgmentBehaviorColumnMods"
+                },
+                {
+                    "type": "li",
+                    "content": "allowVariableFarDistZLimits"
+                },
+                {
+                    "type": "li",
+                    "content": "setDrawDistanceActorFrame"
+                },
+                {
+                    "type": "li",
+                    "content": "implementedNoteSkew"
+                },
+                {
+                    "type": "li",
+                    "content": "luaJITTesting"
+                }
+            ]
+        },
+        {
+            "type": "p",
+            "content": "codeFreezeEndedExplanation",
+            "jumpLine": true
+        },
+        {
+            "type": "ul",
+            "jumpLine": true,
+            "childrens": [
+                {
+                    "type": "li",
+                    "content": "codeFreezeQARound2"
+                },
+                {
+                    "type": "li",
+                    "content": "fixedGL3Initialisation"
+                },
+                {
+                    "type": "li",
+                    "content": "fixedOverflowWindowSystems"
+                },
+                {
+                    "type": "li",
+                    "content": "fixedOverflowLLWPointerDereferences"
+                },
+                {
+                    "type": "li",
+                    "content": "optimisedModImplementations"
+                },
+                {
+                    "type": "li",
+                    "content": "fixedIncorrectCeilfSettings"
+                },
+                {
+                    "type": "li",
+                    "content": "fixedRegressionBadCodeRageTimer"
+                },
+                {
+                    "type": "li",
+                    "content": "allowedNewPreferencesAdded"
+                },
+                {
+                    "type": "li",
+                    "content": "addedGraphicsLevels"
+                }
+            ]
+        },
+        {
+            "type": "h2",
+            "content": "a06",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "firstCodeFreezeExplanation",
+            "jumpLine": true
+        },
+        {
+            "type": "ul",
+            "jumpLine": true,
+            "childrens": [
+                {
+                    "type": "li",
+                    "content": "codeFreezeQARound1"
+                },
+                {
+                    "type": "li",
+                    "content": "fixedUnnecessaryFloatInt"
+                },
+                {
+                    "type": "li",
+                    "content": "fixedOverflowCausedSTBI"
+                },
+                {
+                    "type": "li",
+                    "content": "fixedRareOGGVorbisOverflow"
+                },
+                {
+                    "type": "li",
+                    "content": "fixedRareCrasdD3D"
+                },
+                {
+                    "type": "li",
+                    "content": "fixedOpenGLVersioning"
+                },
+                {
+                    "type": "li",
+                    "content": "modifiedOpenGLCallingTextureAllocation"
+                },
+                {
+                    "type": "li",
+                    "content": "fixedMipMappingLevelTextureAllocation"
+                },
+                {
+                    "type": "li",
+                    "content": "fixedUnnecessaryCallModules"
+                },
+                {
+                    "type": "li",
+                    "content": "addedFunctionGLATTER"
+                },
+                {
+                    "type": "li",
+                    "content": "fixedRegressionRageTextureManager"
+                },
+                {
+                    "type": "li",
+                    "content": "fixedBrokenPointers"
+                }
+            ]
+        },
+        {
+            "type": "h2",
+            "content": "a05",
+            "jumpLine": true
+        },
+        {
+            "type": "ul",
+            "jumpLine": true,
+            "childrens": [
+                {
+                    "type": "li",
+                    "content": "removedVBORestriction"
+                },
+                {
+                    "type": "li",
+                    "content": "fixedTextureFormatAllocation"
+                },
+                {
+                    "type": "li",
+                    "content": "fixedBuildCompilationWin32D3D"
+                },
+                {
+                    "type": "li",
+                    "content": "replacedImageCallsSTBI"
+                },
+                {
+                    "type": "li",
+                    "content": "implementedCenteredPath"
+                }
+            ]
+        },
+        {
+            "type": "ul",
+            "jumpLine": true,
+            "childrens": [
+                {
+                    "type": "li",
+                    "content": "optimizedBundledThemesNoteskins"
+                },
+                {
+                    "type": "li",
+                    "content": "cmdDeprecation"
+                },
+                {
+                    "type": "li",
+                    "content": "useFileBasedRedirection"
+                },
+                {
+                    "type": "li",
+                    "content": "fixedScreenInitAnimations"
+                },
+                {
+                    "type": "li",
+                    "content": "fixedTransitionsNextScreen"
+                },
+                {
+                    "type": "li",
+                    "content": "fixedQuadBorderingScreenInit"
+                },
+                {
+                    "type": "li",
+                    "content": "addedTinyAnimationMod"
+                },
+                {
+                    "type": "li",
+                    "content": "fixedCompilationMacOSHighSierra"
+                }
+            ]
+        },
+        {
+            "type": "h2",
+            "jumpLine": true,
+            "content": "a03"
+        },
+        {
+            "type": "ul",
+            "jumpLine": true,
+            "childrens": [
+                {
+                    "type": "li",
+                    "content": "fixedInputGhostingX11"
+                },
+                {
+                    "type": "li",
+                    "content": "fixedStyleConsistency"
+                },
+                {
+                    "type": "li",
+                    "content": "moddedFragmentVertexShaderCompilations"
+                },
+                {
+                    "type": "li",
+                    "content": "newOpenGLLoader"
+                },
+                {
+                    "type": "li",
+                    "content": "addedGLUMethodology"
+                },
+                {
+                    "type": "li",
+                    "content": "fixedWGLFunctionSupport"
+                },
+                {
+                    "type": "li",
+                    "content": "removedTextureFontGenerator"
+                },
+                {
+                    "type": "li",
+                    "content": "addedLuaFunctionLoadBones"
+                }
+            ]
+        },
+        {
+            "type": "h2",
+            "content": "a02",
+            "jumpLine": true
+        },
+        {
+            "type": "ul",
+            "jumpLine": true,
+            "childrens": [
+                {
+                    "type": "li",
+                    "content": "newNoteskinsPawPaws"
+                },
+                {
+                    "type": "li",
+                    "content": "addedNewJudgementSystem"
+                },
+                {
+                    "type": "li",
+                    "content": "addedCLANGmodernise"
+                },
+                {
+                    "type": "li",
+                    "content": "fixedCDTitleLayering"
+                },
+                {
+                    "type": "li",
+                    "content": "updatedModernisedInstaller"
+                },
+                {
+                    "type": "li",
+                    "content": "updatedFixedGLEWMemoryLeaking"
+                },
+                {
+                    "type": "li",
+                    "content": "raspberryPi23BBCompilerSupport"
+                }
+            ]
+        },
+        {
+            "type": "h2",
+            "content": "a01",
+            "jumpLine": true
+        },
+        {
+            "type": "ul",
+            "jumpLine": true,
+            "childrens": [
+                {
+                    "type": "li",
+                    "content": "fixedIssueAlsaPollingLinux"
+                },
+                {
+                    "type": "li",
+                    "content": "removesUnnecessaryLanguageFiles"
+                },
+                {
+                    "type": "li",
+                    "content": "addedNewToastyAppearanceOptions"
+                },
+                {
+                    "type": "li",
+                    "content": "addedNewJudgements"
+                },
+                {
+                    "type": "li",
+                    "content": "addedNewVersionGLEW"
+                },
+                {
+                    "type": "li",
+                    "content": "addedGLEW30Hooks"
+                },
+                {
+                    "type": "li",
+                    "content": "fixedGLEWPointers"
+                },
+                {
+                    "type": "li",
+                    "content": "addedOutfoxBrandingModifiedLambda"
+                },
+                {
+                    "type": "li",
+                    "content": "addedArcadeOptions"
+                },
+                {
+                    "type": "li",
+                    "content": "removedlibPNGlibJPG"
+                },
+                {
+                    "type": "li",
+                    "content": "addedImageLoaderSTBImage"
+                },
+                {
+                    "type": "li",
+                    "content": "removedPalettes"
+                }
+            ]
+        },
+        {
+            "type": "h2",
+            "content": "a00",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "firstSnapshotExplanation",
+            "jumpLine": true
         }
     ]
 }

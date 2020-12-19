@@ -48,7 +48,7 @@ fs.mkdir('static-pages' + languageCode, { recursive: true }, err => {
     }
 })
 
-const files = ['static-pages-about.htm', 'static-pages-addons.htm', 'static-pages-add-ons.noteskins.htm', 'static-pages-faq.htm', 'static-pages-help-support.htm']
+const files = ['static-pages-historical-changelog.htm','static-pages-about.htm', 'static-pages-addons.htm', 'static-pages-add-ons.noteskins.htm', 'static-pages-faq.htm', 'static-pages-help-support.htm']
 
 for (let i = 0; i < files.length; i++) {
 
