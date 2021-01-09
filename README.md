@@ -4,17 +4,31 @@ Translate [Project Moondance](https://projectmoon.dance/) with the same style St
 
 ## Usage
 
-Open ``translated.ini`` and change ``LanguageCode`` to the language code used for your language, then translate everything else, if you want to check how your translation is going, open webini the app and it'll generate all the html files.
+Grab the [latest release](https://github.com/Tiny-Foxes/Tiny-Webini/releases) and download the zip file that is not the source code, extract it and open Tiny-Webini.exe
 
-## Important notes
+To make changes go to `resources` and `app` folder, you can make changes to the page using the `translated.ini` file.
 
-While the files to get overwritten, please remove all the html before creating new ones so the chances of something going wrong are reduced.
+When making changes to `translated.ini` files, go to the end of the screen and click where it says to update the ini file.
 
-While you will still need to write _some_ html inside the translated ini, 97% of the work is reduced.
+There are tools you can utilize in the navbar after selecting the "Translator View Tools"
 
-### In case you want to debug
+### Toggle Key String View
+
+Will make so key strings are show instead of the translated string, this is good for finding which key you need to change so the string is affected.
+
+### Highlight Translatable Elements
+
+Will highlight elements that can be translated.
+### Generate HTML Files
+
+Will generate the HTML files needed to place in the Project Moondance Backend using the strings you translated from the `translated.ini`.
+
+They'll be located inside the `generatedFiles` folder, please don't spam click this and I recommend to delete files before generating again.
+## Debugging
 
 You'll need to create a fs variable with the fs library inside the ``ini-parser`` package, for some reason it's not included by default.
+
+You'll notice that most files from releases aren't there, releases uses [electron-binaries](https://github.com/electron/electron/releases) and places the source inside the resources folder.
 
 ### What is template.json
 

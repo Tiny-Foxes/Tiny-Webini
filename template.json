@@ -582,6 +582,117 @@
             "jumpLine": true
         }
     ],
+    "static-pages-community-policies": [
+        {
+            "type": "h2",
+            "content": "theseRulesApplyOnDiscordForum"
+        },
+        {
+            "type": "ol",
+            "content": "",
+            "jumpLine": true,
+            "childrens": [
+                {
+                    "type": "li",
+                    "content": "positiveEnvironment",
+                    "jumpLine": true
+                },
+                {
+                    "type": "li",
+                    "content": "notImpersonateStaffMembers",
+                    "jumpLine": true
+                },
+                {
+                    "type": "li",
+                    "content": "notPersonalInformation",
+                    "jumpLine": true
+                },
+                {
+                    "type": "li",
+                    "content": "notAbovePG13",
+                    "jumpLine": true
+                },
+                {
+                    "type": "li",
+                    "content": "notSpam",
+                    "jumpLine": true
+                },
+                {
+                    "type": "li",
+                    "content": "notPromote",
+                    "jumpLine": true
+                },
+                {
+                    "type": "li",
+                    "content": "notControversial",
+                    "jumpLine": true
+                },
+                {
+                    "type": "li",
+                    "content": "notCopyrightMaterial",
+                    "jumpLine": true
+                },
+                {
+                    "type": "li",
+                    "content": "notSimfiledDownloads",
+                    "jumpLine": true
+                },
+                {
+                    "type": "li",
+                    "content": "notBegSourceCode",
+                    "jumpLine": true
+                }
+            ]
+        },
+        {
+            "type": "p",
+            "content": "moderatorsReserveRights",
+            "jumpLine": true
+        },
+        {
+            "type": "h2",
+            "content": "changelog",
+            "jumpLine": true
+        },
+        {
+            "type": "ul",
+            "content": "",
+            "jumpLine": true,
+            "childrens": [
+                {
+                    "type": "li",
+                    "content": "movePageToWebsite",
+                    "jumpLine": true
+                },
+                {
+                    "type": "li",
+                    "content": "addRule10"
+                }
+            ]
+        },
+        {
+            "type": "h1",
+            "content": "privacyPolicy",
+            "jumpLine": true
+        },
+        {
+            "type": "ul",
+            "content": "",
+            "jumpLine": true,
+            "childrens": [
+                {
+                    "type": "li",
+                    "content": "sessionCookieGenerated",
+                    "jumpLine": true
+                },
+                {
+                    "type": "li",
+                    "content": "frontendNothirdParty",
+                    "jumpLine": true
+                }
+            ]
+        }
+    ],
     "static-pages-help-support": [
         {
             "type": "p",
@@ -737,6 +848,61 @@
         {
             "type": "p",
             "content": "possibleSolutions",
+            "jumpLine": true
+        },
+        {
+            "type": "h2",
+            "content": "xinputInterferingHidapi",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "padShowsTwoButtons",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "twoButtonsImgPlaceholder",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "xboxDriverError",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "fixWritingDownTheNumbers",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "br",
+            "jumpLine": true
+        },
+        {
+            "type": "pre",
+            "content": "joyButtons",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "br",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "keymapsIniSaveFolder",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "keysPlaceholder",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "xboxDriverFixDone",
             "jumpLine": true
         }
     ],
@@ -2743,11 +2909,11 @@
                 },
                 {
                     "type": "li",
-                    "content": "liboggUpdated"
+                    "content": "implementedHoldGrainMult"
                 },
                 {
                     "type": "li",
-                    "content": "libvorbisUpdated"
+                    "content": "liboggUpdated"
                 },
                 {
                     "type": "li",

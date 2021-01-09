@@ -1,0 +1,217 @@
+/* Colours.css */
+:root {
+	--sw-header-bg: #144594;
+	--core-accent-color: #1C53B9;
+	--secondary-accent-color: #1870BD;
+	--light-accent-color: #C7D9EF;
+	--lighter-accent-color: #E9F1FB;
+	--dark-sw-header-bg: #002C73;
+	--dark-core-accent-color: #15397C;
+	--dark-secondary-accent-color: #095291;
+	--dark-light-accent-color: #1C3154;
+	--dark-lighter-accent-color: #22395F;
+	}
+	
+body {
+	background: #FFF;
+	}
+	
+	
+body[data-theme="dark"] {
+	background: #0F1621;
+	color: #C1C8D5;
+}
+	
+/* Is this even going to work? (edit: it did!) */
+
+.bottom-gradient::after {
+    content: ' ';
+    display: block;
+    height: 4px;
+    border: 0;
+    background: linear-gradient(to right, #FF8D47 0%, #FFC447 100%);
+}
+
+#layout-header nav {
+	background: var(--sw-header-bg) !important;
+	}
+
+[data-theme="dark"] #layout-header nav {
+	background: var(--dark-sw-header-bg) !important;
+	}
+
+#layout-header .navbar-toggler {
+	background: var(--lighter-accent-color) !important;
+	}
+	
+.dm-label, .dm-label span {
+   	color: #BEC4FF;
+}
+	
+#layout-header .navbar-toggler:hover {
+	background: #f8f9fa !important;
+	}
+
+#layout-header .navbar-brand {
+	color: #FFFFFF;
+	}
+	
+#layout-header .navbar a {
+	color: #BEC4FF;
+	}
+	
+#layout-header .navbar a:hover {
+	color: #FFF;
+	}
+	
+#layout-header .navbar .dropdown-menu a {
+	color: var(--core-accent-color);
+	}
+	
+[data-theme="dark"] #layout-header .navbar .dropdown-menu a {
+	color: #D5D9F5;
+	}
+	
+[data-theme="dark"] #layout-header .navbar .dropdown-menu a:hover {
+	background: var(--dark-light-accent-color);
+	}	
+		
+#layout-header .navbar .dropdown-menu a:active {
+	color: #FFF;
+	}
+
+.dropdown-item.active, .dropdown-item:active {
+	background: var(--core-accent-color);
+	}
+
+#layout-header .navbar a.disabled {
+	color: rgba(183,191,228,.56);
+	cursor: not-allowed;
+	}
+	
+[data-theme="dark"] #layout-header .dropdown-menu {
+	background: #0F1621;
+	}
+	
+#layout-sidebar h1{
+	border-bottom: 3px solid var(--core-accent-color);
+	color: #08224E;
+	}
+	
+#home-hero {
+    background: #0E1A3A;
+	color: #FFF;
+}	
+
+#layout-content a {
+    color: #C54906;
+}
+
+#layout-content a.btn-primary {
+    color: #FFF
+}
+
+#layout-content .blockquote {
+    border-left: 6px solid var(--light-accent-color);
+}
+
+[data-theme="dark"] #layout-content .blockquote {
+    border-left: 6px solid var(--dark-light-accent-color);
+}
+
+#layout-content h2 {
+    color: var(--core-accent-color);
+}
+
+#layout-content h3 {
+    color: var(--secondary-accent-color);
+}
+
+[data-theme="dark"] #layout-content h2 {
+    color: #D5D9F5;
+}
+
+[data-theme="dark"] #layout-content h3 {
+    color: #9DAABD;
+}
+
+a.list-group-item {
+    color: var(--core-accent-color) !important;     
+}
+
+[data-theme="dark"] a.list-group-item {
+    background: #172132;
+    color: #D5D9F5 !important;     
+}
+
+#home-dl {
+	background: var(--core-accent-color);
+}	
+
+[data-theme="dark"] #home-dl {
+	background: var(--dark-core-accent-color);
+}	
+
+.news-post .post-meta {
+    color: #084071;
+    background: var(--light-accent-color);
+    border: 0 0 4px 0;
+	border-bottom: 3px solid transparent;
+	border-image-source: linear-gradient(to right, #FF8D47 0%, #FFC447 100%); 
+    border-image-slice: 5;
+    }
+    
+[data-theme="dark"] .news-post .post-meta {
+    background: var(--dark-light-accent-color);
+    color: #9FA9E9;
+    }
+    
+.page-title {
+    color: var(--lighter-accent-color);
+    background: var(--core-accent-color);
+    border: 0 0 4px 0;
+	border-bottom: 3px solid transparent;
+	border-image-source: linear-gradient(to right, #FF8D47 0%, #FFC447 100%); 
+    border-image-slice: 5;
+    }
+    
+[data-theme="dark"] .page-title {
+    color: #D5D9F5;
+    background: #1E2B40;
+}
+    
+#post-content a, #layout-footer a , .post-meta a {
+	color: var(--core-accent-color) !important;
+	}
+	
+[data-theme="dark"] #post-content a, [data-theme="dark"] #layout-footer a , [data-theme="dark"] .post-meta a {
+    color: #D5D9F5 !important;
+	}
+	
+#layout-footer {
+	background: var(--lighter-accent-color);
+	}
+	
+[data-theme="dark"] #layout-footer {
+	background: #1E2B40;
+	}	
+	
+footer#layout-footer .footer-row-b {
+	border-top: 1px solid #A4C4E9;
+	}
+	
+[data-theme="dark"]  .alert-primary {
+    color: #8FBBD3;
+    background: #1F3169;
+}	
+	
+[data-theme="dark"]  .alert-warning {
+    color: #D3B68F;
+    background: #3E362B;
+}
+
+[data-theme="dark"]  .btn-light {
+    color: #D5D9F5;
+    background-color: #182859;
+    border-color: #2D4592;
+}
