@@ -7,13 +7,50 @@ const {
 } = require("electron");
 const path = require("path");
 const fs = require("fs");
+fs.truncate(path.join(__dirname, '../logs/info.txt'), 0, ()=>{})
+const callerId = require('caller-id')
+const logger = require('simple-node-logger').createSimpleFileLogger({ logFilePath: path.join(__dirname, '../logs/info.txt') })
 const translation = parser.parseFileSync(path.join(__dirname, '../translated.ini'))
 const template = require('../template.json')
 
 let mainWindow;
 
+/**
+ * Returns the name of the file from the file path.
+ * @param {String} path - The file Path
+ * @returns {String} - name of the file from the file path.
+ */
+function fileName (path) {
+  let pathSplit = path.split('\\')
+  if (pathSplit[0] === path) {
+    pathSplit = path.split('/')
+  }
+
+  return pathSplit[pathSplit.length - 1].replace(/.js/gi, '')
+}
+
+/**
+ * Executes log.info
+ * @param {String} msg - The message to info.
+ */
+const info = (msg) => {
+  const Data = callerId.getData()
+  logger.info(`[${fileName(Data.filePath)}] at line ${Data.lineNumber} - ${msg}`)
+}
+
+/**
+ * Executes log.warn
+ * @param {String} msg - The message to warn.
+ */
+const warn = (msg) => {
+  const Data = callerId.getData()
+  logger.warn(`[${fileName(Data.filePath)}] at line ${Data.lineNumber} - ${msg}`)
+}
+
 function createWindow () {
   // Create the browser window.
+
+  info('Creating window')
   mainWindow = new BrowserWindow({
     width: 800,
     height: 600,
@@ -29,36 +66,52 @@ function createWindow () {
   })
 
   // and load the index.html of the app.
+  info('Loading default html')
   mainWindow.loadFile(path.join(__dirname, "../pageFiles/themes/moondance/assets/default.html"))
   mainWindow.once('ready-to-show', () => {
+    info('Showing window')
     mainWindow.show()
   })
 }
 
 ipcMain.on("toMain", (event, args) => {
   if (args.length === 2) {
+    info('Recieved a call to Main')
     if (args[0] === 'writeFile') {
+      info(`Writing a file, arguments: ${[args[1][0], args[1][1]].join(', ')}`)
       fs.writeFileSync(args[1][0], args[1][1])
     }
 
     if (args[0] === 'mkdir') {
+      info(`Writing a directory to ${args[1]}`)
       fs.mkdir(args[1], { recursive: true }, err => {
-        if (err) console.log(err)
+        if (err) warn(`Error while writing a directory, error: ${err}`)
       })
     }
 
     if (args[0] === 'rename') {
+      info(`Renaming (or moving) ${args[1][0]} to ${args[1][1]}`)
       fs.rename(args[1][0], args[1][1], (err) => {
-        if (err) console.log(err)
+        if (err) warn(`Error while writing a renaming, error: ${err}`)
       })
+    }
+
+    if (args[0] === 'logInfo') {
+      info(args[1])
+    }
+
+    if (args[0] === 'logwarn') {
+      warn(args[1])
     }
     return
   }
   if (args === 'translationUpdate') {
+    info('An translation update was requested, updating translation.')
     mainWindow.webContents.send('fromMain', ['translationUpdate', parser.parseFileSync(path.join(__dirname, '../translated.ini'))])
     return
   }
 
+  info('Sending files, template, translation to isolated window.')
   mainWindow.webContents.send('fromMain', ['translation', translation])
   mainWindow.webContents.send('fromMain', ['template', template])
   mainWindow.webContents.send('fromMain', ['pathGeneratedFiles', path.join(__dirname, '../generatedFiles')])
@@ -80,6 +133,7 @@ ipcMain.on("toMain", (event, args) => {
 })
 
 app.whenReady().then(() => {
+  info('App is ready, creating window')
   createWindow()
   
   app.on('activate', function () {
@@ -87,7 +141,9 @@ app.whenReady().then(() => {
   })
 })
 
-
+/*
+We don't support mac at the moment.
 app.on('window-all-closed', function () {
   if (process.platform !== 'darwin') app.quit()
 })
+*/

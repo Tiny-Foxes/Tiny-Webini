@@ -83,6 +83,20 @@ const pages = [homeElem, aboutElem, downloadsElem, faqElem, controllersElem, not
 const pagesStr = ['home', 'about', 'downloads', 'faq', 'controllers', 'noteskins', 'tools', 'historicalChangelog', 'communityPolicies']
 /**
  * 
+ * @param {string} arg The message to log info.
+ */
+const info = (arg) => {
+    window.api.send('toMain', ['logInfo', arg])
+}
+/**
+ * 
+ * @param {string} arg The message to log warn.
+ */
+const warn = (arg) => {
+    window.api.send('toMain', ['logWarn', arg])
+}
+/**
+ * 
  * @param {string} page 
  * @param {object} translation
  * @param {string} reason
@@ -105,18 +119,21 @@ const translate = (page, translation) => {
 }
 
 toggleStringsView.onclick = (() => {
+    info(`Switching keyView mode to ${!window.tinyWebGlobal.keyViewMode}`)
     window.tinyWebGlobal.keyViewMode = !window.tinyWebGlobal.keyViewMode
     window.api.send('toMain', 'translationUpdate')
     // translate(window.tinyWebGlobal.actualPage, window.tinyWebGlobal.translation)
 })
 
 highlightElements.onclick = (() => {
+    info(`Switching highlight mode to ${!window.tinyWebGlobal.highlight}`)
     window.tinyWebGlobal.highlight = !window.tinyWebGlobal.highlight
     window.api.send('toMain', 'translationUpdate')
     // translate(window.tinyWebGlobal.actualPage, window.tinyWebGlobal.translation)
 })
 
 generateFiles.onclick = (() => {
+    info('Generating HTMl Files')
     const languageCode = window.tinyWebGlobal.translation.Common.LanguageCode === "en" ? "" : `-${window.tinyWebGlobal.translation.Common.LanguageCode}`
     const htmlFiles = Object.keys(window.tinyWebGlobal.template)
     let allReady = false
@@ -158,13 +175,6 @@ generateFiles.onclick = (() => {
     }
 
     window.api.send('toMain', ['mkdir', window.tinyWebGlobal.pathToGenerateFiles + '/' + 'static-pages' + languageCode])
-    /*
-    fs.mkdir(window.tinyWebGlobal.pathToGenerateFiles + '/' + 'static-pages' + languageCode, { recursive: true }, err => {
-        if (err) {
-            console.log(err)
-        }
-    })
-    */
 
     const files = ['static-pages-historical-changelog.htm', 'static-pages-about.htm', 'static-pages-addons.htm', 'static-pages-add-ons.noteskins.htm', 'static-pages-faq.htm', 'static-pages-help-support.htm', 'static-pages-community-policies.htm']
 
@@ -192,6 +202,7 @@ const translationReady = (translation) => {
     for (let i = 0; i < pages.length; i++) {
         // Special case for home page with jumbatron
         if (i === 0) {
+            info('Switching to home page')
             pages[0].onclick = (_) => {
                 jumbatronPlaceElem.innerHTML = jumbatron
                 contentDivElem.innerHTML = window.tinyWebGlobal.files[0]
@@ -201,16 +212,18 @@ const translationReady = (translation) => {
             continue
         }
         pages[i].onclick = (_) => {
+            info(`Switching to page ${pagesStr[i]}`)
             if (window.tinyWebGlobal.actualPage === 'home') {
                 jumbatronPlaceElem.innerHTML = ''
             }
             window.tinyWebGlobal.actualPage = pagesStr[i]
-            contentDivElem.innerHTML = 'hi' //`${window.tinyWebGlobal.files[i]}`
+            contentDivElem.innerHTML = `${window.tinyWebGlobal.files[i]}`
             translate(pagesStr[i], translation)
         }
     }
 
     translationUpdate.onclick = (() => {
+        info('Requesting translation update')
         window.api.send('toMain', 'translationUpdate')
     })
 }
@@ -221,8 +234,7 @@ const translationReady = (translation) => {
  * @param {string} [actualPage] 
  */
 const translationReload = (translation, actualPage) => {
-    // The default page is always available in every page, so always update it.
+    info('Reloading translation')
     translate('default', translation)
-    // console.log(actualPage)
     translate(actualPage, translation)
 }
