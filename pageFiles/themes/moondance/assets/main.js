@@ -73,14 +73,10 @@ window.api.receive('fromMain', (data) => {
 })
 console.log('sending start to main')
 window.api.send('toMain', 'start')
-//
-/**
- * @constant
- * @type {HTMLElement[]}
- */
 
 const pages = [homeElem, aboutElem, downloadsElem, faqElem, controllersElem, noteskinsElem, toolsElem, historicalChangelogElem, communityPoliciesElem]
 const pagesStr = ['home', 'about', 'downloads', 'faq', 'controllers', 'noteskins', 'tools', 'historicalChangelog', 'communityPolicies']
+
 /**
  * 
  * @param {string} arg The message to log info.
@@ -88,6 +84,7 @@ const pagesStr = ['home', 'about', 'downloads', 'faq', 'controllers', 'noteskins
 const info = (arg) => {
     window.api.send('toMain', ['logInfo', arg])
 }
+
 /**
  * 
  * @param {string} arg The message to log warn.
@@ -95,6 +92,7 @@ const info = (arg) => {
 const warn = (arg) => {
     window.api.send('toMain', ['logWarn', arg])
 }
+
 /**
  * 
  * @param {string} page 
@@ -121,8 +119,7 @@ const translate = (page, translation) => {
 toggleStringsView.onclick = (() => {
     info(`Switching keyView mode to ${!window.tinyWebGlobal.keyViewMode}`)
     window.tinyWebGlobal.keyViewMode = !window.tinyWebGlobal.keyViewMode
-    window.api.send('toMain', 'translationUpdate')
-    // translate(window.tinyWebGlobal.actualPage, window.tinyWebGlobal.translation)
+    window.api.send('toMain', 'translationUpdate'))
 })
 
 highlightElements.onclick = (() => {
@@ -182,7 +179,12 @@ generateFiles.onclick = (() => {
 
         if (!allReady) {
             i = i - 1
-            continue // Don't cringe me
+            continue 
+            /* 
+            HACK: Makes so the code bellow only executes once allReady is true, 
+            continue will add 1 to "i", this "if loop" will remove 1, when allReady
+            is true, "i" will always be the 1 or higher.
+            */
         }
         window.api.send('toMain', ['rename', [window.tinyWebGlobal.pathToGenerateFiles + '/' + files[i], `${window.tinyWebGlobal.pathToGenerateFiles}/static-pages${languageCode}/${files[i].replace('static-pages-', '')}`]])
         /*
@@ -200,21 +202,14 @@ const translationReady = (translation) => {
     translate('default', translation)
 
     for (let i = 0; i < pages.length; i++) {
-        // Special case for home page with jumbatron
-        if (i === 0) {
-            info('Switching to home page')
-            pages[0].onclick = (_) => {
-                jumbatronPlaceElem.innerHTML = jumbatron
-                contentDivElem.innerHTML = window.tinyWebGlobal.files[0]
-                translate(pagesStr[0], translation)
-                window.tinyWebGlobal.actualPage = 'home'
-            }
-            continue
-        }
         pages[i].onclick = (_) => {
             info(`Switching to page ${pagesStr[i]}`)
             if (window.tinyWebGlobal.actualPage === 'home') {
                 jumbatronPlaceElem.innerHTML = ''
+            }
+
+            if (pagesStr[i] === 'home') {
+                jumbatronPlaceElem.innerHTML = jumbatron
             }
             window.tinyWebGlobal.actualPage = pagesStr[i]
             contentDivElem.innerHTML = `${window.tinyWebGlobal.files[i]}`
