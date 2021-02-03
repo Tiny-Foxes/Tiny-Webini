@@ -580,6 +580,36 @@
             "type": "p",
             "content": "smallRenderingWindowFix",
             "jumpLine": true
+        },
+        {
+            "type": "h1",
+            "content": "windows",
+            "jumpLine": true
+        },
+        {
+            "type": "h2",
+            "content": "ancientIntelGraphics",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "wddm1Driver",
+            "jumpLine": true
+        },
+        {
+            "type": "pre",
+            "content": "lastSeenDriver"
+        },
+        {
+            "type": "p",
+            "content": "microsoftGDIRenderer",
+            "jumpLine": true
+        }
+        ,
+        {
+            "type": "p",
+            "content": "intelGraphicsSupport",
+            "jumpLine": true
         }
     ],
     "static-pages-community-policies": [
