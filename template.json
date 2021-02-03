@@ -563,11 +563,6 @@
         },
         {
             "type": "p",
-            "content": "alternativePath",
-            "jumpLine": true
-        },
-        {
-            "type": "p",
             "content": "olderMacBuilds",
             "jumpLine": true
         },
