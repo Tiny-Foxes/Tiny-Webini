@@ -119,7 +119,7 @@ const translate = (page, translation) => {
 toggleStringsView.onclick = (() => {
     info(`Switching keyView mode to ${!window.tinyWebGlobal.keyViewMode}`)
     window.tinyWebGlobal.keyViewMode = !window.tinyWebGlobal.keyViewMode
-    window.api.send('toMain', 'translationUpdate'))
+    window.api.send('toMain', 'translationUpdate')
 })
 
 highlightElements.onclick = (() => {

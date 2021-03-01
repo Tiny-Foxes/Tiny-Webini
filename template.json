@@ -299,6 +299,46 @@
                     "jumpLine": true
                 }
             ]
+        },
+        {
+            "type": "p",
+            "content": "",
+            "jumpLine": true,
+            "childrens": [
+                {
+                    "type": "br",
+                    "jumpLine": true,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "type": "h1",
+            "content": "tinyFoxes",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "tinyFoxesImgPlaceholder",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "tinyFoxesExplanation",
+            "jumpLine": true
+        },
+        {
+            "type": "div",
+            "content": "",
+            "jumpLine": true,
+            "properties": "class=\"btn-group\"",
+            "childrens": [
+                {
+                    "type": "a",
+                    "properties": "class=\"btn btn-primary\" href=\"https://github.com/Tiny-Foxes\"",
+                    "content": "github"
+                }
+            ]
         }
     ],
     "static-pages-faq": [
