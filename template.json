@@ -892,7 +892,7 @@
         },
         {
             "type": "p",
-            "content": "hastagUseful",
+            "content": "hashtagUseful",
             "jumpLine": true
         },
         {
@@ -1567,7 +1567,7 @@
                                 {
                                     "type": "h3",
                                     "jumpLine": true,
-                                    "content": "Thirdstyle"
+                                    "content": "ThirdStyle"
                                 },
                                 {
                                     "type": "div",

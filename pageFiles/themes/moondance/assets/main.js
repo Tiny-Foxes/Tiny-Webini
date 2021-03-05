@@ -94,6 +94,13 @@ const warn = (arg) => {
 }
 
 /**
+ * Sends a notification to the OS.
+ * @param {any} arg - The notify message string or object.
+ */
+const notify = (arg) => {
+    window.api.send('toMain', ['notification', arg])
+}
+/**
  * 
  * @param {string} page 
  * @param {object} translation
@@ -193,6 +200,7 @@ generateFiles.onclick = (() => {
         })
         */
     }
+    notify('HTML files fully generated!')
 })
 /**
  * 

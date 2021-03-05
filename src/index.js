@@ -12,6 +12,7 @@ const callerId = require('caller-id')
 const logger = require('simple-node-logger').createSimpleFileLogger({ logFilePath: path.join(__dirname, '../logs/info.txt') })
 const translation = parser.parseFileSync(path.join(__dirname, '../translated.ini'))
 const template = require('../template.json')
+const notifier = require('node-notifier')
 
 let mainWindow;
 
@@ -78,21 +79,21 @@ ipcMain.on("toMain", (event, args) => {
   if (args.length === 2) {
     info('Recieved a call to Main')
     if (args[0] === 'writeFile') {
-      info(`Writing a file, arguments: ${[args[1][0], args[1][1]].join(', ')}`)
+      info(`Writing a file, arguments: \n\n ${[args[1][0], args[1][1]].join(', ')}\n\n`)
       fs.writeFileSync(args[1][0], args[1][1])
     }
 
     if (args[0] === 'mkdir') {
       info(`Writing a directory to ${args[1]}`)
       fs.mkdir(args[1], { recursive: true }, err => {
-        if (err) warn(`Error while writing a directory, error: ${err}`)
+        if (err) warn(`Error while writing a directory, error: \n\n${err}\n\n`)
       })
     }
 
     if (args[0] === 'rename') {
       info(`Renaming (or moving) ${args[1][0]} to ${args[1][1]}`)
       fs.rename(args[1][0], args[1][1], (err) => {
-        if (err) warn(`Error while writing a renaming, error: ${err}`)
+        if (err) warn(`Error while writing a renaming, error: \n\n${err}\n\n`)
       })
     }
 
@@ -103,8 +104,22 @@ ipcMain.on("toMain", (event, args) => {
     if (args[0] === 'logwarn') {
       warn(args[1])
     }
+
+    if (args[0] === 'notification') {
+      if (typeof args[1] === 'string') {
+        notifier.notify({
+          title: "Tiny-Webini",
+          message: args[1],
+          icon: './tinyFoxes.png'
+        })
+        return
+      }
+
+      notifier.notify(args[1])
+    }
     return
   }
+
   if (args === 'translationUpdate') {
     info('An translation update was requested, updating translation.')
     mainWindow.webContents.send('fromMain', ['translationUpdate', parser.parseFileSync(path.join(__dirname, '../translated.ini'))])
