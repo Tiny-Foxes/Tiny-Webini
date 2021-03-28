@@ -68,6 +68,7 @@ function createWindow () {
 
   // and load the index.html of the app.
   info('Loading default html')
+  // "../pageFiles/themes/moondance/assets/default.html" Project Moondance
   mainWindow.loadFile(path.join(__dirname, "../pageFiles/themes/moondance/assets/default.html"))
   mainWindow.once('ready-to-show', () => {
     info('Showing window')
@@ -140,9 +141,10 @@ ipcMain.on("toMain", (event, args) => {
   const tools = fs.readFileSync(path.join(__dirname, '../pageFiles/themes/moondance/assets/tools.html'), 'utf-8')
   const historicalChangelog = fs.readFileSync(path.join(__dirname, '../pageFiles/themes/moondance/assets/historical-changelog.html'), 'utf-8')
   const communityPolicies = fs.readFileSync(path.join(__dirname, '../pageFiles/themes/moondance/assets/community-policies.html'), 'utf-8')
+  const moveFreely = fs.readFileSync(path.join(__dirname, '../pageFiles/themes/moondance/assets/move-freely.html'), 'utf-8')
 
   mainWindow.webContents.send('fromMain', ['jumbatron', jumbatron])
-  const files = [home, about, downloads, faq, controllers, noteskins, tools, historicalChangelog, communityPolicies]
+  const files = [home, about, downloads, faq, controllers, noteskins, tools, historicalChangelog, communityPolicies, moveFreely]
 
   mainWindow.webContents.send("fromMain", files);
 })

@@ -8,6 +8,7 @@ const noteskinsElem = document.getElementById('noteskins')
 const toolsElem = document.getElementById('tools')
 const historicalChangelogElem = document.getElementById('historical-changelog')
 const communityPoliciesElem = document.getElementById('community-policies')
+const moveFreelyElem = document.getElementById('moveFreely')
 const jumbatronPlaceElem = document.getElementById('jumbatronPlaceholder')
 const contentDivElem = document.getElementById('contentPlaceholder')
 const translationUpdate = document.getElementById('requestTranslationUpdate')
@@ -24,7 +25,8 @@ const toTranslate = {
     'noteskins': ['static-pages-add-ons.noteskins'],
     'tools': ['static-pages-addons'],
     'historicalChangelog': ['static-pages-historical-changelog'],
-    'communityPolicies': ['static-pages-community-policies']
+    'communityPolicies': ['static-pages-community-policies'],
+    'moveFreely': ['static-pages-move-freely']
 }
 window.tinyWebGlobal = {
     actualPage: 'default',
@@ -74,8 +76,8 @@ window.api.receive('fromMain', (data) => {
 console.log('sending start to main')
 window.api.send('toMain', 'start')
 
-const pages = [homeElem, aboutElem, downloadsElem, faqElem, controllersElem, noteskinsElem, toolsElem, historicalChangelogElem, communityPoliciesElem]
-const pagesStr = ['home', 'about', 'downloads', 'faq', 'controllers', 'noteskins', 'tools', 'historicalChangelog', 'communityPolicies']
+const pages = [homeElem, aboutElem, downloadsElem, faqElem, controllersElem, noteskinsElem, toolsElem, historicalChangelogElem, communityPoliciesElem, moveFreelyElem]
+const pagesStr = ['home', 'about', 'downloads', 'faq', 'controllers', 'noteskins', 'tools', 'historicalChangelog', 'communityPolicies', 'moveFreely']
 
 /**
  * 
@@ -180,7 +182,7 @@ generateFiles.onclick = (() => {
 
     window.api.send('toMain', ['mkdir', window.tinyWebGlobal.pathToGenerateFiles + '/' + 'static-pages' + languageCode])
 
-    const files = ['static-pages-historical-changelog.htm', 'static-pages-about.htm', 'static-pages-addons.htm', 'static-pages-add-ons.noteskins.htm', 'static-pages-faq.htm', 'static-pages-help-support.htm', 'static-pages-community-policies.htm']
+    const files = ['static-pages-historical-changelog.htm', 'static-pages-about.htm', 'static-pages-addons.htm', 'static-pages-add-ons.noteskins.htm', 'static-pages-faq.htm', 'static-pages-help-support.htm', 'static-pages-community-policies.htm', 'static-pages-move-freely.htm']
 
     for (let i = 0; i < files.length; i++) {
 

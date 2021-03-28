@@ -647,6 +647,200 @@
             "jumpLine": true
         }
     ],
+    "static-pages-move-freely": [
+        {
+            "type": "p",
+            "content": "whatIsOutFoxCommunityPackProject"
+        },
+        {
+            "type": "p",
+            "content": "howToParticipate",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "finalProduct",
+            "jumpLine": true
+        },
+        {
+            "type": "ol",
+            "content": "",
+            "jumpLine": true,
+            "childrens": [
+                {
+                    "type": "li",
+                    "content": "music",
+                    "jumpLine": true
+                },
+                {
+                    "type": "li",
+                    "content": "charts",
+                    "jumpLine": true
+                },
+                {
+                    "type": "li",
+                    "content": "graphics",
+                    "jumpLine": true
+                }
+            ]
+        },
+        {
+            "type": "p",
+            "content": "participationExplanation",
+            "jumpLine": true
+        },
+        {
+            "type": "h2",
+            "content": "musicGuidelines",
+            "jumpLine": true
+        },
+        {
+            "type": "ul",
+            "content": "",
+            "jumpLine": true,
+            "childrens": [
+                {
+                    "type": "li",
+                    "jumpLine": true,
+                    "content": "musicRuleMustLicenseUnderFreeLicense"
+                },
+                {
+                    "type": "li",
+                    "jumpLine": true,
+                    "content": "musicRuleMustBeOriginalWork"
+                },
+                {
+                    "type": "li",
+                    "jumpLine": true,
+                    "content": "musicRuleMustNotContainCopyrightedMaterial"
+                },
+                {
+                    "type": "li",
+                    "jumpLine": true,
+                    "content": "musicRuleMustBePG13"
+                },
+                {
+                    "type": "li",
+                    "jumpLine": true,
+                    "content": "musicRuleMusicLength"
+                },
+                {
+                    "type": "li",
+                    "jumpLine": true,
+                    "content": "musicRuleSubmissionFormat"
+                },
+                {
+                    "type": "li",
+                    "jumpLine": true,
+                    "content": "musicRuleMustSoundGood"
+                }
+            ]
+        },
+        {
+            "type": "h2",
+            "content": "chartGuidelines",
+            "jumpLine": true
+        },
+        {
+            "type": "ul",
+            "content": "",
+            "jumpLine": true,
+            "childrens": [
+                {
+                    "type": "li",
+                    "content": "chartRuleDifficulties",
+                    "jumpLine": true
+                },
+                {
+                    "type": "li",
+                    "content": "chartRuleLicenses",
+                    "jumpLine": true
+                },
+                {
+                    "type": "li",
+                    "content": "chartRuleCooperate",
+                    "jumpLine": true
+                },
+                {
+                    "type": "li",
+                    "content": "chartRuleFreedom",
+                    "jumpLine": true
+                },
+                {
+                    "type": "li",
+                    "content": "chartRuleGametypes",
+                    "jumpLine": true
+                },
+                {
+                    "type": "li",
+                    "content": "chartRulePlayWhere",
+                    "jumpLine": true
+                },
+                {
+                    "type": "li",
+                    "content": "chartRuleProvidingSubmission",
+                    "jumpLine": true
+                }
+            ]
+        },
+        {
+            "type": "h2",
+            "content": "graphicsGuidelines",
+            "jumpLine": true
+        },
+        {
+            "type": "ul",
+            "content": "",
+            "jumpLine": true,
+            "childrens": [
+                {
+                    "type": "li",
+                    "content": "graphicsRuleOriginalWork",
+                    "jumpLine": true
+                },
+                {
+                    "type": "li",
+                    "content": "graphicsRuleLicense",
+                    "jumpLine": true
+                },
+                {
+                    "type": "li",
+                    "content": "graphicsRuleBannerBackground",
+                    "jumpLine": true
+                },
+                {
+                    "type": "li",
+                    "content": "graphicsRuleBackgroundVideos",
+                    "jumpLine": true
+                },
+                {
+                    "type": "li",
+                    "content": "graphicsRulePG13",
+                    "jumpLine": true
+                }
+            ]
+        },
+        {
+            "type": "h2",
+            "content": "submission",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "submittingContributions",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "byJoiningTheEvent",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "furtherQuestions",
+            "jumpLine": true
+        }
+    ],
     "static-pages-community-policies": [
         {
             "type": "h2",
