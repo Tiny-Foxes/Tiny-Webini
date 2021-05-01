@@ -783,6 +783,11 @@
                 },
                 {
                     "type": "li",
+                    "content": "chartProvidedTemplates",
+                    "jumpLine": true
+                },
+                {
+                    "type": "li",
                     "content": "chartRuleLicenses",
                     "jumpLine": true
                 },
