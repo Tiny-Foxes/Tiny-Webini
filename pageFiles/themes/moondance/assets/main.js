@@ -17,7 +17,7 @@ const highlightElements = document.getElementById('highlightElements')
 const generateFiles = document.getElementById('generateFiles')
 const toTranslate = {
     'default': ['footer-license'],
-    'home': ['hero-intro', 'front-what-is-outfox', 'front-what-is-stepmania', 'front-welcome', 'front-community'],
+    'home': ['hero-intro', 'front-what-is-outfox', 'front-what-is-stepmania', 'front-community'],
     'about': ['static-pages-about'],
     'downloads': ['alpha-notice'],
     'faq': ['static-pages-faq'],

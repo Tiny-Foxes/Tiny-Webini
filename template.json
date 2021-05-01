@@ -111,17 +111,6 @@
             "jumpLine": true
         }
     ],
-    "front-welcome": [
-        {
-            "type": "p",
-            "content": "homeOfStepMania"
-        },
-        {
-            "type": "p",
-            "content": "homeOfStepManiaExplanation",
-            "jumpLine": true 
-        }
-    ],
     "front-what-is-outfox": [
         {
             "type": "h1",

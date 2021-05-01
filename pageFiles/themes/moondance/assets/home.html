@@ -1,19 +1,15 @@
 <div class="row">
     <div class="col-md-6">
-        <h1 class="page-title" data-translation="whatIsStepmania">What is StepMania?</h1>
+        <h1 class="page-title" data-translation="whatIsOutFox">What is Project Outfox?</h1>
 
-        <p data-translation="whatIsStepmaniaExplanation"><strong>StepMania</strong> is an open source rhythm game engine. It is primarily used to
-            simulate the gameplay of <em>Dance Dance Revolution</em>, but it is capable of
-            simulating other types of key-based rhythm games as well. StepMania has been developed
-            since 2000, and has also been used as the engine of commercial arcade dance games such
-            as <em>In the Groove</em>, and <em>Pump it Up Pro</em> and <em>Infinity</em>.</p>
+        <p data-translation="whatIsOutFoxExplanation"><strong>Project OutFox</strong> is a fork of the open source rhythm game engine StepMania. It focuses on modernizing its codebase to improve performance and graphical fidelity, refurbishing aspects of the engine that have been neglected, and to improve and expand its support for other game types and styles.</p>
+
+        <p data-translation="whoMakesOutFox">It is developed by Team Rizu — a team of community veterans and other current members of the current community.</p>
     </div>
     <div class="col-md-6">
-        <h1 class="page-title" data-translation="whatIsOutFox">What is OutFox?</h1>
+        <h1 class="page-title" data-translation="joinTheCommunity">Join the community</h1>
 
-        <p data-translation="whatIsOutFoxExplanation"><strong>StepMania 5.3 "OutFox"</strong> is the next version of StepMania, under
-            development by Team Rizu — a team of community veterans and other current members of the
-            current StepMania community.</p>
+        <p data-translation="shareFeedback">Share your feedback and discuss OutFox and other community projects with Team Rizu developers on our <strong><a href="https://discord.gg/3DgsbSg">Moondance Discord server</a></strong>, as well as our <strong><a href="https://discourse.projectmoon.dance">forum</a></strong></p>
 
         <p data-translation="outfoxFocus">We have been focusing on modernizing the engine to improve performance, graphical
             fidelity, and to refurbish parts of the game that have been neglected.</p>
@@ -44,50 +40,213 @@
         <ul class="post-list">
             <li class="news-post">
                 <div class="post-meta">
-                    <h1><a>StepMania
-                            5.3 Alpha 4.9.6 released!</a></h1>
+                    <h1><a
+                            href="https://projectmoon.dance/news/project-outfox-53-alpha-498-released">Project
+                            OutFox 5.3 Alpha 4.9.8 released!</a></h1>
                     <p class="info">
-                        <span class="fas fa-clock" title="Posted at" aria-hidden="true"></span> Dec
-                        16, 2020 &nbsp;
-                        <span class="fas fa-tags" title="Posted in" aria-hidden="true"></span> <a>Releases</a>
+                        <span class="fas fa-clock" title="Posted at" aria-hidden="true"></span> Apr
+                        25, 2021 &nbsp;
+                        <span class="fas fa-tags" title="Posted in" aria-hidden="true"></span> <a
+                            href="https://projectmoon.dance/news/category/announcements">Announcements</a>
                     </p>
                 </div>
                 <div class="post-content">
-                    <p><img src="https://projectmoon.dance/storage/app/uploads/public/5fd/a8a/bc4/5fda8abc4bba0614300967.png"
-                            alt="Common splash.png" class="img-fluid mx-auto d-block"></p>
-                    <p><strong>StepMania 5.3 Alpha 4.9.6</strong> has been released! </p>
-                    <p>This is our first official build with a native binary avaliable for the new
-                        ARM-based Macs (Apple M1). With this release, we are one of the first
-                        macOS-compatible games to have a version compiled natively for Apple M1, and
-                        one of the first with full controller and pad support as well. We demoed the
-                        build, as well as its controller support, in a <a>recent
-                            Twitch broadcast</a>.</p>
-                    <p>This is our final build for 2020, and also marks the one-year anniversary of
-                        our first public release!</p>
-                    <p>Check out the full changelog <a>here</a>
-                        for more information.</p>
+                    <blockquote>
+                        <p>"An Alpha is never late, it arrives precisely when it means to!"</p>
+                    </blockquote>
+                    <p><strong>Project OutFox 5.3 Alpha 4.9.8</strong> has been released! There is a
+                        <em>lot</em> to go over with this release, including new game modes,
+                        user-facing features, and other internal bug fixes and improvements.</p>
+                    <h1>Gameplay features</h1>
+                    <h2>Game types</h2>
+                    <p>One of our major goals with 5.3 has been to improve its various gametypes,
+                        and add new ones never implemented in StepMania before. Many of them have
+                        been neglected for years or even a decade, so they have been buggy and
+                        incomplete.</p>
+                    <p><img src="https://projectmoon.dance/storage/app/uploads/public/608/313/4d7/6083134d740ec451733559.png"
+                            alt="modes-diagram.png" class="img-fluid mx-auto d-block"></p>
+                    <p>Alpha 4.9.8 contains improvements to a number of gametypes (including new
+                        styles, and updates to the parsers for BMS and PMS), as well as one
+                        brand-new gametype:</p>
+                    <ul>
+                        <li><strong>gdgf</strong> (renamed from "guitar"): We have added a 6-fret
+                            style. This mode and its sister drum gametype <strong>gddm</strong> will
+                            support a <code>DTX</code> loader in the future, but you can also use
+                            the built-in editor to author drum and guitar charts in the standard
+                            <code>.SSC</code> format too.</li>
+                        <li><strong>popn</strong>: This mode has been around for a very long time,
+                            but has not really had any support or been looked at since before 2010.
+                            It was side-lined into the <code>BMS</code> loader, which actually broke
+                            a lot of the needed changes <code>PMS</code> actually uses, and as a
+                            result most PMS files with 7 or 9 lanes, would be added to the game as
+                            beat 10-lane or 14-lane charts. We thank the anonymous reporter of this
+                            bug, as Squirrel took the time to investigate it and we decided to
+                            return a new modernised PMS loader to the game, which now correctly
+                            loads PMS songs as they should be. This also removes the oddity and edge
+                            crashes when anyone wished to play this mode on OutFox. With these
+                            changes. we have been able to load packs such as Colorful Channel with
+                            no issue.
+                            <ul>
+                                <li>The new loader can also handle long notes, the 06 (POOR), 07
+                                    (BG2) and 0A (LAYER 2) BGA channels, and the ITEM channel.</li>
+                                <li>In addition, we have support for 3-lane (battle), 4-lane,
+                                    5-lane, and 7-lane charts, while community member Daniel has
+                                    contributed several new noteskins specifically for popn mode
+                                    too.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <p><img src="https://projectmoon.dance/storage/app/uploads/public/608/111/406/608111406fa2e095555856.jpg"
+                            alt="115632725-40f41e80-a300-11eb-8d9d-479a82dcb6bf.jpg"
+                            title="Playing this particular song was what the anonymous user was having issues with, in case you're wondering..."
+                            class="img-fluid mx-auto d-block"></p>
+                    <ul>
+                        <li><strong>para</strong>: A double style has been added.</li>
+                        <li><strong>techno</strong>: 9-panel and 18-panel styles have been added. In
+                            addition, a new version of Broadhead with column-based colors has been
+                            added as a global noteskin and as the default for <code>techno</code>.
+                        </li>
+                    </ul>
+                    <p><img src="https://projectmoon.dance/storage/app/uploads/public/608/113/967/60811396722d5189025824.jpg"
+                            alt="techno-double.jpg" class="img-fluid mx-auto d-block"></p>
+                    <ul>
+                        <li><strong>gh</strong>: A new 5-fret (and 6-fret coming soon) gametype
+                            based on a collection of popular games that used a guitar-styled
+                            controller to press frets and strum along to bass and guitar parts of a
+                            song.
+                            <ul>
+                                <li>It can load charts in the <code>.chart</code> and
+                                    <code>.midi</code> formats, and supports co-operative
+                                    multiplayer (i.e. one player can play a bass or rhythm guitar
+                                    chart while the other plays lead guitar, for example).</li>
+                                <li>To implement this gametype, new note types were added, and
+                                    internal changes were made so that its code doesn't have to be
+                                    squished around <code>dance</code>-centric code. </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <p><img src="https://projectmoon.dance/storage/app/uploads/public/608/110/3b6/6081103b6229f325350043.jpg"
+                            alt="StepMania_WBuGwTLnhj.jpg" class="img-fluid mx-auto d-block"></p>
+                    <p>All gametypes have access to features such as the built-in chart editor and
+                        modifier systems, allowing you to extend your content to as many as
+                        <strong>52 styles in 14 gametypes</strong> as of this release.</p>
+                    <p>Most gametypes currently have a "preliminary" implementation, meaning that
+                        they are functional but may be missing features. They also run within the
+                        default Soundwaves theme, which was primarily designed for the
+                        <code>dance</code> gametype and its associated paradigms, and may not
+                        necessarily work well with all gametypes. The next phase of implementation
+                        will be to give each gametype a tailored theme and user experience, so that
+                        they will no longer have to be shoehorned into an interface they aren't
+                        meant for.</p>
+                    <p>Most of these modes are sadly-neglected and have been without support or a
+                        maintainer for upwards of a decade, so be a touch sympathetic to them if you
+                        decide to take the time to explore, they will be given the love they
+                        deserve. We are going to stop the trend of "adding new stuff then doing
+                        nothing with it" that was so common in the project we are formed from.</p>
+                    <p>Given that we now have more gametypes that aren't step-based over those that
+                        are, we have also made a decision to reinstate the <strong>Project
+                            OutFox</strong> name for our builds going forward rather than StepMania.
+                        None of this means we are abandoning step games, though.</p>
+                    <h2>LiftHolds</h2>
+                    <p>We have added a new option for hold and roll tails known as a "LiftHold",
+                        where the player must let go at the end of the hold. You can add them to
+                        charts by using <code>DL</code> instead of <code>3</code> to end a hold or
+                        roll in the .ssc file, while a modifier is available to change all holds and
+                        rolls in a chart to LiftHolds.</p>
+                    <p><img src="https://projectmoon.dance/storage/app/uploads/public/608/1a2/ef1/6081a2ef1e141876856132.png"
+                            alt="lifthold-tail.png" class="img-fluid mx-auto d-block"></p>
+                    <h2>New pause menu</h2>
+                    <p>Due to limitations in how pause menus are currently implemented in-game (we
+                        need to change it in order to support the new BGA layers needed for for BMS,
+                        PMS, and DTX. Plus, since it was an actor in
+                        <code>ScreenGameplay overlay</code>, it became invisible if a song [such as
+                        the majority of mod files] toggles its visibility), we have made a new
+                        implementation of one within the fallback theme.</p>
+                    <p><img src="https://projectmoon.dance/storage/app/uploads/public/608/1a2/41d/6081a241d6e04569881361.png"
+                            alt="115640138-27f26a00-a30e-11eb-94f1-6cb697b01ace.png"
+                            class="img-fluid mx-auto d-block"></p>
+                    <p>It appears instantly once the <code>Back</code> button is pressed; we may
+                        restore the existing "Hold <code>Back</code> to give up" behaviour as an
+                        option in the future.</p>
+                    <p>Theme developers can enable the new pause menu by setting the the metric
+                        <code>UsePauseMenu=true</code> under <code>[ScreenGameplay]</code>. A basic
+                        menu design is provided, but it can be customized by themes. We have
+                        maintained backwards compatibility with themes which do not enable it.</p>
+                    <h1>Technical changes</h1>
+                    <h2>Timing changes</h2>
+                    <p>Since Alpha 4.9.7GG we have slightly adjusted the renderer pipeline to
+                        optimize how we deal with frames within the kernel timer of the OS. This is
+                        to prepare for new sound/rendering drivers coming in the near future, but as
+                        we've found with a lot in this game, baby steps to fix little blockers
+                        before we do major updates. We also have removed more of the Rage engine in
+                        favour of modern mathematics algorithms, and this has needed a slight tweak
+                        to the order on how we draw things.</p>
+                    <p>if you find your median timing skews early or late (like the example below)
+                        after migrating to 4.9.8, take a moment to <a
+                            href="https://outfox.wiki/#/getting-started?id=calibrate-your-audio-sync">re-calibrate
+                            your offset</a>.</p>
+                    <p><img src="https://projectmoon.dance/storage/app/uploads/public/608/4b0/d84/6084b0d84da94771975532.png"
+                            alt="115966525-dcb2a400-a525-11eb-9888-538f322ba115.png"
+                            class="img-fluid mx-auto d-block"></p>
+                    <h2>Video upscaler</h2>
+                    <p>We have implemented the ability to change the <a
+                            href="https://ffmpeg.org/ffmpeg-scaler.html">scaler algorithm</a> used
+                        by FFmpeg for videos in Project OutFox, via the preference
+                        <code>VideoUpScaleFilter</code>. If you have an older system, take the time
+                        to experiment with the different algorithms and see how it affects your
+                        performance, as this will add a little load onto your system.</p>
+                    <ul>
+                        <li>0 - none (default; recommended for Raspberry Pi and low-end devices)
+                        </li>
+                        <li>1 - fast bilinear</li>
+                        <li>2 - bilinear</li>
+                        <li>3 - bicubic</li>
+                        <li>4 - X Sharpens + Contrast</li>
+                        <li>5 - Point</li>
+                        <li>6 - Area</li>
+                        <li>7 - Bicublin (recommended)</li>
+                        <li>8 - Gaussian</li>
+                        <li>9 - Sinc</li>
+                        <li>10 - Lanczos</li>
+                        <li>11 - Spline.</li>
+                    </ul>
+                    <h2>Input</h2>
+                    <p>We have added a new preference, <code>UsingArcadePads</code>, which will
+                        allow you to use the input driver for Python boards natively without any
+                        freezes. As per the "starworlds" StepMania branch, you need to set
+                        <code>InputDrivers=Python23IO,SDL</code> in Preferences.ini. This will set
+                        up your board driver, and allow you to use keyboard/XInput/Bluetooth
+                        controllers to control the game while you're on your pad (if you exclude SDL
+                        as input, you will have no keyboard input!). </p>
+                    <p>You will need to set <code>UseOldJoystickMapping=0</code> as well, so the
+                        game will initialise the XInput controller driver alongside your Python
+                        board. This preference only currently supports the Python23IO driver, but
+                        will be expanded to Reflex and other drivers in the future.</p>
+                    <h1>Release notes and download</h1>
+                    <p>You can see the full changelog and download links for Alpha 4.9.8 <strong><a
+                                href="https://github.com/TeamRizu/OutFox/releases/tag/OF4.9.8">here
+                                on GitHub</a></strong>, which has details on the other improvements
+                        and bug fixes featured in this build. </p>
+                    <p>Give all of the new modes a try and be sure to give us your feedback! You can
+                        visit the new <a href="https://www.reddit.com/r/OutFox/">r/OutFox</a> for
+                        support and discussion of Project OutFox on Reddit, and <a
+                            href="https://www.twitch.tv/directory/game/Project%20OutFox">stream
+                            Project OutFox on Twitch</a>.</p>
+                    <h1>OutFox Community Pack</h1>
+                    <p>We are still accepting applications for music contributions, graphics
+                        artists, and charters for the <a
+                            href="https://projectmoon.dance/outfox-community-pack">OutFox Community
+                            Pack project</a>. With the release of Alpha 4.9.8, we have added a
+                        series of new channels to the <a
+                            href="https://discord.gg/cN4TjgQdcA">Project OutFox Discord server</a>
+                        for organizing submissions, as we formally begin the process of producing
+                        the pack!</p>
                 </div>
             </li>
         </ul>
-        <p><a class="btn btn-lg btn-primary">More
+        <p><a href="https://projectmoon.dance/articles" class="btn btn-lg btn-primary">More
                 articles</a></p>
         <p> </p>
     </div>
 </div>
-
-<div class="row">
-    <div class="col-md-6">
-        <h1 class="page-title">Welcome</h1>
-        <p data-translation="homeOfStepMania">Project Moondance is the home of StepMania 5.3 "OutFox".</p>
-
-        <p data-translation="homeOfStepManiaExplanation">It is led by Team Rizu, a development team of community veterans and other prominent
-            members of the community.</p>
-    </div>
-    <div class="col-md-6">
-        <h1 class="page-title">Join the community</h1>
-        <p data-translation="shareFeedback">Share your feedback and discuss OutFox and other community projects with Team Rizu
-            developers on our <strong><a>Moondance Discord
-                    server</a></strong>, as well as our <strong><a">forum</a></strong></p>
-        <p data-translation="supportTeamRizu">Support the Team Rizu development team by becoming a member of our <strong><a>Patreon</a></strong>.</p>
-    </div>
 </div>
