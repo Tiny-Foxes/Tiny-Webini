@@ -531,11 +531,6 @@
             "jumpLine": true
         },
         {
-            "type": "p",
-            "jumpLine": true,
-            "content": "xinputAndLegacyExplanation"
-        },
-        {
             "type": "h2",
             "jumpLine": true,
             "content": "lagWithRecentProcessor"
@@ -663,6 +658,16 @@
         {
             "type": "p",
             "content": "intelGraphicsSupport",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "intel3000Graphics",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "intelGist",
             "jumpLine": true
         }
     ],
