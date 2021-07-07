@@ -377,16 +377,6 @@
         },
         {
             "type": "h2",
-            "content": "whatIsMoondance",
-            "jumpLine": true
-        },
-        {
-            "type": "p",
-            "content": "whatIsMoondanceExplanation",
-            "jumpLine": true
-        },
-        {
-            "type": "h2",
             "content": "willItWorkWithOldStuff",
             "jumpLine": true
         },
@@ -596,6 +586,16 @@
             "jumpLine": true
         },
         {
+            "type": "p",
+            "content": "libOpenGLFixDebian",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "libOpenGLFixFedora",
+            "jumpLine": true
+        },
+        {
             "type": "h1",
             "content": "macOS",
             "jumpLine": true
@@ -668,6 +668,21 @@
         {
             "type": "p",
             "content": "intelGist",
+            "jumpLine": true
+        },
+        {
+            "type": "h3",
+            "content": "amdATI",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "driverSupport",
+            "jumpLine": true
+        },
+        {
+            "type": "p",
+            "content": "websiteSupport",
             "jumpLine": true
         }
     ],

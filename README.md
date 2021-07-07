@@ -1,6 +1,6 @@
 # Webini
 
-Translate [Project Moondance](https://projectmoon.dance/) with the same style StepMania uses for its translations.
+Translate [OutFox Website](https://projectmoon.dance/) with the same style StepMania uses for its translations.
 
 ## Usage
 
@@ -21,7 +21,7 @@ Will make so key strings are show instead of the translated string, this is good
 Will highlight elements that can be translated.
 ### Generate HTML Files
 
-Will generate the HTML files needed to place in the Project Moondance Backend using the strings you translated from the `translated.ini`.
+Will generate the HTML files needed to place in the OutFox Website Backend using the strings you translated from the `translated.ini`.
 
 They'll be located inside the `generatedFiles` folder, please don't spam click this and I recommend to delete files before generating again.
 ## Debugging

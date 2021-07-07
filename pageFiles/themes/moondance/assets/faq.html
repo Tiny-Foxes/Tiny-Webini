@@ -5,10 +5,6 @@
 
 <p data-translation="whatIsFiveThreeExplanation">A project to modernize the StepMania 5.0.12/5.1 codebase to improve its performance and provide enhanced support for modern hardware and operating systems. We are also adding new features, including those being requested by our community, as well as refurbishing its support of non-dance/4-key game types, adding new game types, and so forth.</p>
 
-<h2 data-translation="whatIsMoondance">What is Project Moondance?</h2>
-
-<p data-translation="whatIsMoondanceExplanation">It is a community/umbrella for Team Rizu (the Project OutFox dev team), covering Project OutFox as well as other related projects.</p>
-
 <h2 data-translation="willItWorkWithOldStuff">Will it still work with my old songs/themes/etc.?</h2>
 
 <p data-translation="outfoxCompatibility">Project OutFox builds upon the existing StepMania 5.0.12/5.1 beta codebase, and maintaining backwards compatibility with older content is one of our main priorities (in fact, this is one of the reasons why the internal version number is 5.3 rather than skipping to a higher number like 6.0). Content that worked on StepMania 5.0.12/5.1 (including songs, themes, and noteskins) should still work on OutFox. If you experience any issues/weirdness, please report it to us.</p>
@@ -73,7 +69,7 @@
 
 <ul>
     <li data-translation="reportingBugs">You can report bugs and make feature suggestions on our Discord server.</li>
-    <li data-translation="joiningTinyFoxes"><a href="https://github.com/Tiny-Foxes">TinyFoxes&nbsp;</a>is a branch of Project Moondance that is coordinating and hosting community-produced content for Project OutFox, such as translations and other add-ons.</li>
+    <li data-translation="joiningTinyFoxes"><a href="https://github.com/Tiny-Foxes">TinyFoxes&nbsp;</a>is coordinating and hosting community-produced content for Project OutFox, such as translations and other add-ons.</li>
 </ul>
 
 <h2 data-translation="whatIsFiveTwoWhySkip">What is StepMania 5.2 and why did you skip over it?</h2>
@@ -109,14 +105,18 @@
 
 <p data-translation="simplyLoveCompatibilityWhy">These issues were brought upon by misunderstandings with the theme's developer over our plans for Project OutFox (including concerns over the aforementioned lack of public source repository). These concerns <a href="https://github.com/quietly-turning/Simply-Love-SM5/pull/184#issuecomment-717841953">were able to be resolved</a> with version 5.0.</p>
 
-<p data-translation="simplyLoveTinyFoxesFork">An <a href="https://github.com/Tiny-Foxes/Simply-Love-OutFox">unofficial fork</a> is also available and has been forked by Project Moondance's TinyFoxes community team, which seeks to perform additional tweaks for compatibility and integrations with Project OutFox</p>
+<p data-translation="simplyLoveTinyFoxesFork">An <a href="https://github.com/Tiny-Foxes/Simply-Love-OutFox">unofficial fork</a> is also available and has been forked by TinyFoxes community team, which seeks to perform additional tweaks for compatibility and integrations with Project OutFox</p>
 
 <h1 data-translation="linux">Linux</h1>
 
 <h2 data-translation="libOpenGLError">I get the error "error while loading shared libraries: libOpenGL.so.0:" on Ubuntu 20.04-based
     distributions</h2>
 
-<p data-translation="libOpenGLFix">Install the <code>libopengl0</code> package. (<code>sudo apt install libopengl0</code>)</p>
+<p data-translation="libOpenGLFix">Install either libglvnd and/or libopengl0 based on your distro.</p>
+
+<p data-translation="libOpenGLFixDebian">On Debian-based distros, install the <code>libopengl0</code> package. (<code>sudo apt install libopengl0</code>)</p>
+
+<p data-translation="libOpenGLFixFedora">On Fedora-based distros, install <code>libglvnd-opengl</code> (<code>sudo dnf install libglvnd-opengl</code>)</p>
 
 <h1 data-translation="macOS">macOS</h1>
 
@@ -152,3 +152,9 @@
 <p data-translation="intel3000Graphics">If you happen to use the Intel HD Graphics 3000 graphics chip, there is a technical workaround below that will restore OpenGL functionality on Windows 10 and could be worth a shot if you're experienced with your operating system.</p>
 
 <p data-translation="intelGist">&nbsp;<a href="https://gist.github.com/rb-dahlb/26f316c5b6089807a139fc44ee69f0d1">https://gist.github.com/rb-dahlb/26f316c5b6089807a139fc44ee69f0d1</a></p>
+
+<h3 data-translation="amdATI">For AMD/ATI users</h3>
+
+<p data-translation="driverSupport">You can download the corresponding driver for your graphics card on AMD's website by visiting the link below and searching your model:</p>
+
+<p data-translation="websiteSupport"><a href="https://www.amd.com/en/support">https://www.amd.com/en/support</a></p>
