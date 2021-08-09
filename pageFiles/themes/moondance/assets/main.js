@@ -2,7 +2,6 @@
 const homeElem = document.getElementById('home')
 const aboutElem = document.getElementById('about')
 const downloadsElem = document.getElementById('downloads')
-const faqElem = document.getElementById('faq')
 const controllersElem = document.getElementById('controllers')
 const noteskinsElem = document.getElementById('noteskins')
 const toolsElem = document.getElementById('tools')
@@ -20,7 +19,6 @@ const toTranslate = {
     'home': ['hero-intro', 'front-what-is-outfox', 'front-what-is-stepmania', 'front-community'],
     'about': ['static-pages-about'],
     'downloads': ['alpha-notice'],
-    'faq': ['static-pages-faq'],
     'controllers': ['static-pages-help-support'],
     'noteskins': ['static-pages-add-ons.noteskins'],
     'tools': ['static-pages-addons'],
@@ -76,8 +74,8 @@ window.api.receive('fromMain', (data) => {
 console.log('sending start to main')
 window.api.send('toMain', 'start')
 
-const pages = [homeElem, aboutElem, downloadsElem, faqElem, controllersElem, noteskinsElem, toolsElem, historicalChangelogElem, communityPoliciesElem, moveFreelyElem]
-const pagesStr = ['home', 'about', 'downloads', 'faq', 'controllers', 'noteskins', 'tools', 'historicalChangelog', 'communityPolicies', 'moveFreely']
+const pages = [homeElem, aboutElem, downloadsElem, controllersElem, noteskinsElem, toolsElem, historicalChangelogElem, communityPoliciesElem, moveFreelyElem]
+const pagesStr = ['home', 'about', 'downloads', 'controllers', 'noteskins', 'tools', 'historicalChangelog', 'communityPolicies', 'moveFreely']
 
 /**
  * 
@@ -182,7 +180,7 @@ generateFiles.onclick = (() => {
 
     window.api.send('toMain', ['mkdir', window.tinyWebGlobal.pathToGenerateFiles + '/' + 'static-pages' + languageCode])
 
-    const files = ['static-pages-historical-changelog.htm', 'static-pages-about.htm', 'static-pages-addons.htm', 'static-pages-add-ons.noteskins.htm', 'static-pages-faq.htm', 'static-pages-help-support.htm', 'static-pages-community-policies.htm', 'static-pages-move-freely.htm']
+    const files = ['static-pages-historical-changelog.htm', 'static-pages-about.htm', 'static-pages-addons.htm', 'static-pages-add-ons.noteskins.htm', 'static-pages-help-support.htm', 'static-pages-community-policies.htm', 'static-pages-move-freely.htm']
 
     for (let i = 0; i < files.length; i++) {
 

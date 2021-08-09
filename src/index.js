@@ -135,7 +135,6 @@ ipcMain.on("toMain", (event, args) => {
   const home = fs.readFileSync(path.join(__dirname, '../pageFiles/themes/moondance/assets/home.html'), 'utf-8')
   const about = fs.readFileSync(path.join(__dirname, '../pageFiles/themes/moondance/assets/about.html'), 'utf-8')
   const downloads = fs.readFileSync(path.join(__dirname, '../pageFiles/themes/moondance/assets/downloads.html'), 'utf-8')
-  const faq = fs.readFileSync(path.join(__dirname, '../pageFiles/themes/moondance/assets/faq.html'), 'utf-8')
   const controllers = fs.readFileSync(path.join(__dirname, '../pageFiles/themes/moondance/assets/controllers.html'), 'utf-8')
   const noteskins = fs.readFileSync(path.join(__dirname, '../pageFiles/themes/moondance/assets/noteskins.html'), 'utf-8')
   const tools = fs.readFileSync(path.join(__dirname, '../pageFiles/themes/moondance/assets/tools.html'), 'utf-8')
@@ -144,7 +143,7 @@ ipcMain.on("toMain", (event, args) => {
   const moveFreely = fs.readFileSync(path.join(__dirname, '../pageFiles/themes/moondance/assets/move-freely.html'), 'utf-8')
 
   mainWindow.webContents.send('fromMain', ['jumbatron', jumbatron])
-  const files = [home, about, downloads, faq, controllers, noteskins, tools, historicalChangelog, communityPolicies, moveFreely]
+  const files = [home, about, downloads, controllers, noteskins, tools, historicalChangelog, communityPolicies, moveFreely]
 
   mainWindow.webContents.send("fromMain", files);
 })

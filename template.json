@@ -38,6 +38,11 @@
             "properties": "class=\"alert-heading\""
         },
         {
+            "type": "p",
+            "content": "readInstallationGuide",
+            "jumpLine": true
+        },
+        {
             "type": "ul",
             "content": "",
             "jumpLine": true,
@@ -55,16 +60,6 @@
                 {
                     "type": "li",
                     "content": "controllerProblemsExplanation",
-                    "jumpLine": true
-                },
-                {
-                    "type": "li",
-                    "content": "armBuildExplanation",
-                    "jumpLine": true
-                },
-                {
-                    "type": "li",
-                    "content": "macBuildExplanation",
                     "jumpLine": true
                 }
             ]
@@ -360,332 +355,6 @@
             ]
         }
     ],
-    "static-pages-faq": [
-        {
-            "type": "h1",
-            "content": "general"
-        },
-        {
-            "type": "h2",
-            "content": "whatIsFiveThree",
-            "jumpLine": true
-        },
-        {
-            "type": "p",
-            "content": "whatIsFiveThreeExplanation",
-            "jumpLine": true
-        },
-        {
-            "type": "h2",
-            "content": "willItWorkWithOldStuff",
-            "jumpLine": true
-        },
-        {
-            "type": "p",
-            "content": "outfoxCompatibility",
-            "jumpLine": true
-        },
-        {
-            "type": "h3",
-            "content": "noteForDevs",
-            "jumpLine": true
-        },
-        {
-            "type": "p",
-            "content": "cmdIsDeprecating",
-            "jumpLine": true
-        },
-        {
-            "type": "h2",
-            "content": "outfoxWithOtherVersions",
-            "jumpLine": true
-        },
-        {
-            "type": "p",
-            "content": "outfoxPortableMode",
-            "jumpLine": true
-        },
-        {
-            "type": "p",
-            "content": "shareContentWithMultipleBuilds",
-            "jumpLine": true
-        },
-        {
-            "type": "h2",
-            "content": "willThereBeOnlineSupport",
-            "jumpLine": true
-        },
-        {
-            "type": "p",
-            "content": "smoIsDeprecated",
-            "jumpLine": true
-        },
-        {
-            "type": "h2",
-            "content": "whereIsTheSource",
-            "jumpLine": true
-        },
-        {
-            "type": "p",
-            "content": "whyItsClosedSource",
-            "jumpLine": true
-        },
-        {
-            "type": "p",
-            "content": "howWeWillReleaseTheSource",
-            "jumpLine": true
-        },
-        {
-            "type": "p",
-            "content": "anyQuestionsAboutTheSource",
-            "jumpLine": true
-        },
-        {
-            "type": "blockquote",
-            "properties": "class=\"blockquote\"",
-            "jumpLine": true,
-            "content": "",
-            "childrens": [
-                {
-                    "type": "p",
-                    "jumpLine": true,
-                    "content": "whyOutfoxStarted"
-                },
-                {
-                    "type": "p",
-                    "jumpLine": true,
-                    "content": "backwardCompatiblity"
-                },
-                {
-                    "type": "p",
-                    "content": "closedSourceProcess",
-                    "jumpLine": true
-                },
-                {
-                    "type": "footer",
-                    "properties": "class=\"blockquote-footer\"",
-                    "content": "squirrel"
-                }
-            ]
-        },
-        {
-            "type": "h2",
-            "jumpLine": true,
-            "content": "howCanIContribute"
-        },
-        {
-            "type": "ul",
-            "content": "",
-            "jumpLine": true,
-            "childrens": [
-                {
-                    "type": "li",
-                    "jumpLine": true,
-                    "content": "reportingBugs"
-                },
-                {
-                    "type": "li",
-                    "jumpLine": true,
-                    "content": "joiningTinyFoxes"
-                }
-            ]
-        },
-        {
-            "type": "h2",
-            "content": "whatIsFiveTwoWhySkip",
-            "jumpLine": true
-        },
-        {
-            "type": "p",
-            "content": "fiveTwoBrokeCompatibility",
-            "jumpLine": true
-        },
-        {
-            "type": "p",
-            "content": "fiveTwoCancelled",
-            "jumpLine": true
-        },
-        {
-            "type": "h1",
-            "content": "technical",
-            "jumpLine": true
-        },
-        {
-            "type": "h2",
-            "content": "controllerDoesntWork",
-            "jumpLine": true
-        },
-        {
-            "type": "p",
-            "content": "xinputCompliant",
-            "jumpLine": true
-        },
-        {
-            "type": "h2",
-            "jumpLine": true,
-            "content": "lagWithRecentProcessor"
-        },
-        {
-            "type": "p",
-            "content": "lagWithRecentProcessorExplanation",
-            "jumpLine": true
-        },
-        {
-            "type": "h2",
-            "content": "simplyLoveCompatibility",
-            "jumpLine": true
-        },
-        {
-            "type": "p",
-            "content": "simplyLoveCompatibilityExplanation",
-            "jumpLine": true
-        },
-        {
-            "type": "p",
-            "content": "simplyLoveCompatibilityRemoveCheck",
-            "jumpLine": true
-        },
-        {
-            "type": "p",
-            "content": "simplyLoveCompatibilityRemovingCheckFrom",
-            "jumpLine": true
-        },
-        {
-            "type": "p",
-            "content": "to",
-            "jumpLine": true
-        },
-        {
-            "type": "p",
-            "content": "simplyLoveCompatibilityRemovingCheckTo",
-            "jumpLine": true
-        },
-        {
-            "type": "p",
-            "content": "simplyLoveCompatibilityWhy",
-            "jumpLine": true
-        },
-        {
-            "type": "p",
-            "content": "simplyLoveTinyFoxesFork",
-            "jumpLine": true
-        },
-        {
-            "type": "h1",
-            "content": "linux",
-            "jumpLine": true
-        },
-        {
-            "type": "h2",
-            "content": "libOpenGLError",
-            "jumpLine": true
-        },
-        {
-            "type": "p",
-            "content": "libOpenGLFix",
-            "jumpLine": true
-        },
-        {
-            "type": "p",
-            "content": "libOpenGLFixDebian",
-            "jumpLine": true
-        },
-        {
-            "type": "p",
-            "content": "libOpenGLFixFedora",
-            "jumpLine": true
-        },
-        {
-            "type": "h1",
-            "content": "macOS",
-            "jumpLine": true
-        },
-        {
-            "type": "h2",
-            "content": "issueLaunching",
-            "jumpLine": true
-        },
-        {
-            "type": "p",
-            "content": "noNoteskinsFound",
-            "jumpLine": true
-        },
-        {
-            "type": "p",
-            "content": "quarantineFix",
-            "jumpLine": true
-        },
-        {
-            "type": "p",
-            "content": "olderMacBuilds",
-            "jumpLine": true
-        },
-        {
-            "type": "h2",
-            "content": "smallRenderingWindow",
-            "jumpLine": true
-        },
-        {
-            "type": "p",
-            "content": "smallRenderingWindowFix",
-            "jumpLine": true
-        },
-        {
-            "type": "h1",
-            "content": "windows",
-            "jumpLine": true
-        },
-        {
-            "type": "h2",
-            "content": "ancientIntelGraphics",
-            "jumpLine": true
-        },
-        {
-            "type": "p",
-            "content": "wddm1Driver",
-            "jumpLine": true
-        },
-        {
-            "type": "pre",
-            "content": "lastSeenDriver"
-        },
-        {
-            "type": "p",
-            "content": "microsoftGDIRenderer",
-            "jumpLine": true
-        }
-        ,
-        {
-            "type": "p",
-            "content": "intelGraphicsSupport",
-            "jumpLine": true
-        },
-        {
-            "type": "p",
-            "content": "intel3000Graphics",
-            "jumpLine": true
-        },
-        {
-            "type": "p",
-            "content": "intelGist",
-            "jumpLine": true
-        },
-        {
-            "type": "h3",
-            "content": "amdATI",
-            "jumpLine": true
-        },
-        {
-            "type": "p",
-            "content": "driverSupport",
-            "jumpLine": true
-        },
-        {
-            "type": "p",
-            "content": "websiteSupport",
-            "jumpLine": true
-        }
-    ],
     "static-pages-move-freely": [
         {
             "type": "p",
@@ -938,7 +607,21 @@
                 {
                     "type": "li",
                     "content": "notSimfiledDownloads",
-                    "jumpLine": true
+                    "jumpLine": true,
+                    "childrens": [
+                        {
+                            "type": "ol",
+                            "content": "",
+                            "jumpLine": true,
+                            "childrens": [
+                                {
+                                    "type": "li",
+                                    "content": "linkToVideos",
+                                    "jumpLine": true
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     "type": "li",
@@ -962,6 +645,11 @@
             "content": "",
             "jumpLine": true,
             "childrens": [
+                {
+                    "type": "li",
+                    "content": "updateRule9",
+                    "jumpLine": true
+                },
                 {
                     "type": "li",
                     "content": "movePageToWebsite",
@@ -1225,17 +913,208 @@
             "content": "forProjectOutfox"
         },
         {
-            "type": "p",
+            "type": "h3",
+            "content": "Aqui",
+            "jumpLine": true
+        },
+        {
+            "type": "div",
+            "content": "",
             "jumpLine": true,
+            "properties": "class=\"container\"",
             "childrens": [
                 {
-                    "type": "em",
-                    "content": "comingSoon"
+                    "type": "div",
+                    "content": "",
+                    "properties": "class=\"row row-cols-2\"",
+                    "jumpLine": true,
+                    "childrens": [
+                        {
+                            "type": "div",
+                            "content": "",
+                            "jumpLine": true,
+                            "properties": "class=\"col\"",
+                            "childrens": [
+                                {
+                                    "type": "img",
+                                    "properties": "src=\"https://projectmoon.dance/storage/app/media/ux/aqui/alpha-noteskins.png\" class=\"float-left fr-fic fr-dii\" alt=\"Alpha-Noteskins\" style=\"height: 64px; width: 64px;\"",
+                                    "content": "",
+                                    "noCloseTag": true
+                                },
+                                {
+                                    "type": "h3",
+                                    "content": "AlphaNoteskins",
+                                    "jumpLine": true
+                                },
+                                {
+                                    "type": "div",
+                                    "jumpLine": true,
+                                    "content": "",
+                                    "properties": "class=\"btn-group\"",
+                                    "childrens": [
+                                        {
+                                            "type": "a",
+                                            "properties": "class=\"btn btn-primary\" href=\"https://github.com/Tiny-Foxes/Aqui-Alpha-Noteskins/archive/refs/tags/v1.0.0.zip\"",
+                                            "content": "twoD"
+                                        },
+                                        {
+                                            "type": "a",
+                                            "properties": "class=\"btn btn-light\" href=\"https://github.com/Tiny-Foxes/Aqui-Alpha-Noteskins\" target=\"_blank\"",
+                                            "content": "github"
+                                        },
+                                        {
+                                            "type": "div",
+                                            "properties": "class=\"clear\"",
+                                            "content": "br"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         },
         {
-            "type": "h2",
+            "type": "h3",
+            "content": "JapanYoshi",
+            "jumpLine": true
+        },
+        {
+            "type": "div",
+            "properties": "class=\"container\"",
+            "jumpLine": true,
+            "content": "",
+            "childrens": [
+                {
+                    "type": "div",
+                    "properties": "class=\"row row-cols-2\"",
+                    "content": "",
+                    "jumpLine": true,
+                    "childrens": [
+                        {
+                            "type": "div",
+                            "properties": "class=\"col\"",
+                            "jumpLine": true,
+                            "childrens": [
+                                {
+                                    "type": "img",
+                                    "properties": "src=\"https://projectmoon.dance/storage/app/media/ux/japanyoshi/mikado.png\" class=\"float-left fr-fic fr-dii\" alt=\"Mikado\" style=\"height: 64px; width: 64px;\"",
+                                    "noCloseTag": true
+                                },
+                                {
+                                    "type": "h3",
+                                    "content": "Mikado",
+                                    "jumpLine": true
+                                },
+                                {
+                                    "type": "div",
+                                    "properties": "class\"btn-group\"",
+                                    "content": "",
+                                    "childrens": [
+                                        {
+                                            "type": "a",
+                                            "properties": "class=\"btn btn-primary\" href=\"https://github.com/Tiny-Foxes/noteskins/blob/8e2c974e5bb394b5121658b1c485804223fdb2a8/releases/eigenvectorV2_b000.7z?raw=true\"",
+                                            "content": "twoD"
+                                        },
+                                        {
+                                            "type": "a",
+                                            "properties": "class=\"btn btn-light\" href=\"https://github.com/Tiny-Foxes/noteskins/tree/main/global/eigenvectorV2\" target=\"_blank\"",
+                                            "content": "github"
+                                        },
+                                        {
+                                            "type": "div",
+                                            "properties": "class=\"clear\"",
+                                            "content": "br"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "div",
+                            "properties": "class=\"col\"",
+                            "jumpLine": true,
+                            "childrens": [
+                                {
+                                    "type": "img",
+                                    "properties": "src=\"https://projectmoon.dance/storage/app/media/ux/japanyoshi/eigenvectorV2.png\" class=\"float-left fr-fic fr-dii\" alt=\"eigenvectorV2\" style=\"height: 64px; width: 64px;\"",
+                                    "noCloseTag": true
+                                },
+                                {
+                                    "type": "h3",
+                                    "content": "eigenvector",
+                                    "jumpLine": true
+                                },
+                                {
+                                    "type": "div",
+                                    "properties": "class\"btn-group\"",
+                                    "content": "",
+                                    "childrens": [
+                                        {
+                                            "type": "a",
+                                            "properties": "class=\"btn btn-primary\" href=\"https://github.com/Tiny-Foxes/noteskins/blob/8e2c974e5bb394b5121658b1c485804223fdb2a8/releases/eigenvectorV2_b000.7z?raw=true\"",
+                                            "content": "twoD"
+                                        },
+                                        {
+                                            "type": "a",
+                                            "properties": "class=\"btn btn-light\" href=\"https://github.com/Tiny-Foxes/noteskins/tree/main/global/eigenvectorV2\" target=\"_blank\"",
+                                            "content": "github"
+                                        },
+                                        {
+                                            "type": "div",
+                                            "properties": "class=\"clear\"",
+                                            "content": "br"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "div",
+                            "properties": "class=\"col\"",
+                            "jumpLine": true,
+                            "childrens": [
+                                {
+                                    "type": "img",
+                                    "properties": "src=\"https://projectmoon.dance/storage/app/media/ux/japanyoshi/eigenvectorV2.png\" class=\"float-left fr-fic fr-dii\" alt=\"eigenvectorv2-blueholds\" style=\"height: 64px; width: 64px;\"",
+                                    "noCloseTag": true
+                                },
+                                {
+                                    "type": "h3",
+                                    "content": "eigenvectorBlueholds",
+                                    "jumpLine": true
+                                },
+                                {
+                                    "type": "div",
+                                    "properties": "class\"btn-group\"",
+                                    "content": "",
+                                    "childrens": [
+                                        {
+                                            "type": "a",
+                                            "properties": "class=\"btn btn-primary\" href=\"https://github.com/Tiny-Foxes/noteskins/blob/8e2c974e5bb394b5121658b1c485804223fdb2a8/releases/eigenvectorv2-blueholds_b000.7z?raw=true\"",
+                                            "content": "twoD"
+                                        },
+                                        {
+                                            "type": "a",
+                                            "properties": "class=\"btn btn-light\" href=\"https://github.com/Tiny-Foxes/noteskins/tree/main/global/eigenvectorv2-blueholds\" target=\"_blank\"",
+                                            "content": "github"
+                                        },
+                                        {
+                                            "type": "div",
+                                            "properties": "class=\"clear\"",
+                                            "content": "br"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "h1",
             "jumpLine": true,
             "content": "forStepmaniaFive"
         },
@@ -1903,16 +1782,6 @@
                     ]
                 }
             ]
-        },
-        {
-            "type": "h3",
-            "jumpLine": true,
-            "content": "haley"
-        },
-        {
-            "type": "p",
-            "jumpLine": true,
-            "content": "visitHaleyWebsite"
         }
     ],
     "static-pages-historical-changelog": [
