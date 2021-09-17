@@ -109,7 +109,7 @@
     "front-what-is-outfox": [
         {
             "type": "h1",
-            "properties": "class\"page-title\"",
+            "properties": "class=\"page-title\"",
             "content": "whatIsOutFox"
         },
         {
@@ -126,7 +126,7 @@
     "front-what-is-stepmania": [
         {
             "type": "h1",
-            "properties": "class\"page-title\"",
+            "properties": "class=\"page-title\"",
             "content": "whatIsStepmania"
         },
         {
