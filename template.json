@@ -155,12 +155,29 @@
         },
         {
             "type": "p",
-            "content": "originsOfMoondance",
+            "content": "mainGoals",
             "jumpLine": true
         },
         {
+            "type": "ul",
+            "jumpLine": true,
+            "content": "",
+            "childrens": [
+                {
+                    "type": "li",
+                    "content": "firstGoal",
+                    "jumpLine": true
+                },
+                {
+                    "type": "li",
+                    "content": "secondGoal",
+                    "jumpLine": true
+                }
+            ]
+        },
+        {
             "type": "p",
-            "content": "plansOfMoondance",
+            "content": "outfoxCompatibility",
             "jumpLine": true
         },
         {
@@ -169,115 +186,243 @@
             "jumpLine": true
         },
         {
-            "type": "h3",
-            "content": "crystalSquirrel",
-            "jumpLine": true
-        },
-        {
             "type": "p",
-            "content": "whoIsSquirrel",
+            "content": "whoDevs",
             "jumpLine": true
         },
         {
-            "type": "h3",
-            "content": "jousway",
-            "jumpLine": true
-        },
-        {
-            "type": "p",
-            "content": "whoIsJousway",
-            "jumpLine": true 
-        },
-        {
-            "type": "h3",
-            "content": "mrThatKid",
-            "jumpLine": true
-        },
-        {
-            "type": "p",
-            "content": "whoIsMrthatkid",
-            "jumpLine": true
-        },
-        {
-            "type": "h3",
-            "content": "cube",
-            "jumpLine": true
-        },
-        {
-            "type": "p",
-            "content": "whoIsCube",
-            "jumpLine": true
-        },
-        {
-            "type": "h3",
-            "content": "joseVarela",
-            "jumpLine": true
-        },
-        {
-            "type": "p",
-            "content": "whoIsJoseVarela",
-            "jumpLine": true
-        },
-        {
-            "type": "h3",
-            "content": "lirodon",
-            "jumpLine": true
-        },
-        {
-            "type": "p",
-            "content": "whoIsLirodon",
-            "jumpLine": true
-        },
-        {
-            "type": "h3",
-            "content": "zerinho6",
-            "jumpLine": true
-        },
-        {
-            "type": "p",
-            "content": "whoIsZerinho6",
-            "jumpLine": true
-        },
-        {
-            "type": "h3",
-            "content": "SHRMP0",
-            "jumpLine": true
-        },
-        {
-            "type": "p",
-            "content": "whoIsSHRMP0",
-            "jumpLine": true
-        },
-        {
-            "type": "h3",
-            "content": "sheepychris",
-            "jumpLine": true
-        },
-        {
-            "type": "p",
-            "content": "whoIsSheepychris",
-            "jumpLine": true
-        },
-        {
-            "type": "h1",
-            "content": "aboutOutFox",
+            "type": "table",
+            "properties": "class=\"table\"",
             "jumpLine": true,
-            "properties": "class=\"page-title\""
+            "content": "",
+            "childrens": [
+                {
+                    "type": "thead",
+                    "content": "",
+                    "jumpLine": true,
+                    "childrens": [
+                        {
+                            "type": "tr",
+                            "content": "",
+                            "jumpLine": true,
+                            "childrens": [
+                                {
+                                    "type": "th",
+                                    "content": "development",
+                                    "jumpLine": true,
+                                    "properties": "style=\"width: 33.3333%\""
+                                },
+                                {
+                                    "type": "th",
+                                    "content": "design",
+                                    "jumpLine": true,
+                                    "properties": "style=\"width: 33.3333%\""
+                                },
+                                {
+                                    "type": "th",
+                                    "content": "community",
+                                    "jumpLine": true,
+                                    "properties": "style=\"width: 33.3333%\""
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "tbody",
+                    "content": "",
+                    "jumpLine": true,
+                    "childrens": [
+                        {
+                            "type": "tr",
+                            "content": "",
+                            "jumpLine": true,
+                            "childrens": [
+                                {
+                                    "type": "th",
+                                    "content": "crystalSquirrel",
+                                    "jumpLine": true,
+                                    "properties": "style=\"width: 33.3333%\""
+                                },
+                                {
+                                    "type": "th",
+                                    "content": "joseVarela",
+                                    "jumpLine": true,
+                                    "properties": "style=\"width: 33.3333%\""
+                                },
+                                {
+                                    "type": "th",
+                                    "content": "zerinho6",
+                                    "jumpLine": true,
+                                    "properties": "style=\"width: 33.3333%\""
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tr",
+                            "content": "",
+                            "jumpLine": true,
+                            "childrens": [
+                                {
+                                    "type": "th",
+                                    "content": "jousway",
+                                    "jumpLine": true,
+                                    "properties": "style=\"width: 33.3333%\""
+                                },
+                                {
+                                    "type": "th",
+                                    "content": "lirodon",
+                                    "jumpLine": true,
+                                    "properties": "style=\"width: 33.3333%\""
+                                },
+                                {
+                                    "type": "th",
+                                    "content": "SHRMP0",
+                                    "jumpLine": true,
+                                    "properties": "style=\"width: 33.3333%\""
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tr",
+                            "content": "",
+                            "jumpLine": true,
+                            "childrens": [
+                                {
+                                    "type": "th",
+                                    "content": "cube",
+                                    "jumpLine": true,
+                                    "properties": "style=\"width: 33.3333%\""
+                                },
+                                {
+                                    "type": "th",
+                                    "content": "sheepychris",
+                                    "jumpLine": true,
+                                    "properties": "style=\"width: 33.3333%\""
+                                },
+                                {
+                                    "type": "th",
+                                    "content": "moneko",
+                                    "jumpLine": true,
+                                    "properties": "style=\"width: 33.3333%\""
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tr",
+                            "content": "",
+                            "jumpLine": true,
+                            "childrens": [
+                                {
+                                    "type": "th",
+                                    "content": "mrThatKid",
+                                    "jumpLine": true,
+                                    "properties": "style=\"width: 33.3333%\""
+                                },
+                                {
+                                    "type": "th",
+                                    "content": "sudo",
+                                    "jumpLine": true,
+                                    "properties": "style=\"width: 33.3333%\""
+                                },
+                                {
+                                    "type": "th",
+                                    "content": "hanubeki",
+                                    "jumpLine": true,
+                                    "properties": "style=\"width: 33.3333%\""
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tr",
+                            "content": "",
+                            "jumpLine": true,
+                            "childrens": [
+                                {
+                                    "type": "th",
+                                    "content": "arcticfqx",
+                                    "jumpLine": true,
+                                    "properties": "style=\"width: 33.3333%\""
+                                },
+                                {
+                                    "type": "th",
+                                    "content": "noOne",
+                                    "jumpLine": true,
+                                    "properties": "style=\"width: 33.3333%\""
+                                },
+                                {
+                                    "type": "th",
+                                    "content": "Gabrimax98",
+                                    "jumpLine": true,
+                                    "properties": "style=\"width: 33.3333%\""
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tr",
+                            "content": "",
+                            "jumpLine": true,
+                            "childrens": [
+                                {
+                                    "type": "th",
+                                    "content": "joseVarela",
+                                    "jumpLine": true,
+                                    "properties": "style=\"width: 33.3333%\""
+                                },
+                                {
+                                    "type": "th",
+                                    "content": "noOne",
+                                    "jumpLine": true,
+                                    "properties": "style=\"width: 33.3333%\""
+                                },
+                                {
+                                    "type": "th",
+                                    "content": "rodent",
+                                    "jumpLine": true,
+                                    "properties": "style=\"width: 33.3333%\""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "type": "p",
-            "content": "whatIsOutFox",
+            "content": "devTeamExplanation",
             "jumpLine": true
         },
         {
             "type": "p",
-            "content": "outfoxCompatibility",
+            "content": "designTeamExplanation",
             "jumpLine": true
         },
         {
             "type": "p",
-            "content": "outfoxIsFiveTwo",
+            "content": "communityTeamExplanation",
             "jumpLine": true
+        },
+        {
+            "type": "ul",
+            "jumpLine": true,
+            "content": "",
+            "childrens": [
+                {
+                    "type": "li",
+                    "content": "discordMod",
+                    "jumpLine": true
+                },
+                {
+                    "type": "li",
+                    "content": "coordinatingTinyFoxes",
+                    "jumpLine": true
+                },
+                {
+                    "type": "li",
+                    "content": "coordinatingSerenity",
+                    "jumpLine": true
+                }
+            ]
         }
     ],
     "static-pages-addons": [
@@ -357,200 +502,82 @@
     ],
     "static-pages-move-freely": [
         {
-            "type": "p",
-            "content": "whatIsOutFoxCommunityPackProject"
+            "type": "div",
+            "properties": "class=\"row\"",
+            "content": "",
+            "childrens": [
+                {
+                    "type": "div",
+                    "properties": "class=\"col-md-6\"",
+                    "content": "",
+                    "jumpLine": true,
+                    "childrens": [
+                        {
+                            "type": "h1",
+                            "content": "welcome",
+                            "properties": "class=\"page-title\"",
+                            "jumpLine": true
+                        },
+                        {
+                            "type": "p",
+                            "content": "serenityWelcome",
+                            "jumpLine": true
+                        }
+                    ]
+                },
+                {
+                    "type": "div",
+                    "properties": "class\"col-md-6\"",
+                    "jumpLine": true,
+                    "content": "",
+                    "childrens": [
+                        {
+                            "type": "h1",
+                            "content": "joinTheProject",
+                            "properties": "class=\"page-title\"",
+                            "jumpLine": true
+                        },
+                        {
+                            "type": "p",
+                            "content": "whatIsSerenity",
+                            "jumpLine": true
+                        },
+                        {
+                            "type": "p",
+                            "content": "interestedInJoining",
+                            "jumpLine": true
+                        }
+                    ]
+                }
+            ]
         },
         {
-            "type": "p",
-            "content": "howToParticipate",
+            "type": "h1",
+            "content": "firstVolume",
+            "properties": "class=\"page-title\"",
             "jumpLine": true
         },
         {
             "type": "p",
-            "content": "finalProduct",
-            "jumpLine": true
-        },
-        {
-            "type": "ol",
             "content": "",
             "jumpLine": true,
             "childrens": [
                 {
-                    "type": "li",
-                    "content": "music",
-                    "jumpLine": true
-                },
-                {
-                    "type": "li",
-                    "content": "charts",
-                    "jumpLine": true
-                },
-                {
-                    "type": "li",
-                    "content": "graphics",
-                    "jumpLine": true
+                    "type": "img",
+                    "content": "",
+                    "properties": "src=\"../storage/app/media/uploaded-files/serenity-small-jk.png\" class=\"img-fluid float-right fr-fic fr-dii\" data-result=\"success\"",
+                    "noCloseTag": true
                 }
             ]
         },
         {
             "type": "p",
-            "content": "participationExplanation",
-            "jumpLine": true
-        },
-        {
-            "type": "h2",
-            "content": "musicGuidelines",
-            "jumpLine": true
-        },
-        {
-            "type": "ul",
-            "content": "",
-            "jumpLine": true,
-            "childrens": [
-                {
-                    "type": "li",
-                    "jumpLine": true,
-                    "content": "musicRuleMustLicenseUnderFreeLicense"
-                },
-                {
-                    "type": "li",
-                    "jumpLine": true,
-                    "content": "musicRuleMustBeOriginalWork"
-                },
-                {
-                    "type": "li",
-                    "jumpLine": true,
-                    "content": "musicRuleMustNotContainCopyrightedMaterial"
-                },
-                {
-                    "type": "li",
-                    "jumpLine": true,
-                    "content": "musicRuleMustBePG13"
-                },
-                {
-                    "type": "li",
-                    "jumpLine": true,
-                    "content": "musicRuleMusicLength"
-                },
-                {
-                    "type": "li",
-                    "jumpLine": true,
-                    "content": "musicRuleSubmissionFormat"
-                },
-                {
-                    "type": "li",
-                    "jumpLine": true,
-                    "content": "musicRuleMustSoundGood"
-                }
-            ]
-        },
-        {
-            "type": "h2",
-            "content": "chartGuidelines",
-            "jumpLine": true
-        },
-        {
-            "type": "ul",
-            "content": "",
-            "jumpLine": true,
-            "childrens": [
-                {
-                    "type": "li",
-                    "content": "chartRuleDifficulties",
-                    "jumpLine": true
-                },
-                {
-                    "type": "li",
-                    "content": "chartProvidedTemplates",
-                    "jumpLine": true
-                },
-                {
-                    "type": "li",
-                    "content": "chartRuleLicenses",
-                    "jumpLine": true
-                },
-                {
-                    "type": "li",
-                    "content": "chartRuleCooperate",
-                    "jumpLine": true
-                },
-                {
-                    "type": "li",
-                    "content": "chartRuleFreedom",
-                    "jumpLine": true
-                },
-                {
-                    "type": "li",
-                    "content": "chartRuleGametypes",
-                    "jumpLine": true
-                },
-                {
-                    "type": "li",
-                    "content": "chartRulePlayWhere",
-                    "jumpLine": true
-                },
-                {
-                    "type": "li",
-                    "content": "chartRuleProvidingSubmission",
-                    "jumpLine": true
-                }
-            ]
-        },
-        {
-            "type": "h2",
-            "content": "graphicsGuidelines",
-            "jumpLine": true
-        },
-        {
-            "type": "ul",
-            "content": "",
-            "jumpLine": true,
-            "childrens": [
-                {
-                    "type": "li",
-                    "content": "graphicsRuleOriginalWork",
-                    "jumpLine": true
-                },
-                {
-                    "type": "li",
-                    "content": "graphicsRuleLicense",
-                    "jumpLine": true
-                },
-                {
-                    "type": "li",
-                    "content": "graphicsRuleBannerBackground",
-                    "jumpLine": true
-                },
-                {
-                    "type": "li",
-                    "content": "graphicsRuleBackgroundVideos",
-                    "jumpLine": true
-                },
-                {
-                    "type": "li",
-                    "content": "graphicsRulePG13",
-                    "jumpLine": true
-                }
-            ]
-        },
-        {
-            "type": "h2",
-            "content": "submission",
+            "content": "serenityFirstVolumeRelease",
             "jumpLine": true
         },
         {
             "type": "p",
-            "content": "submittingContributions",
-            "jumpLine": true
-        },
-        {
-            "type": "p",
-            "content": "byJoiningTheEvent",
-            "jumpLine": true
-        },
-        {
-            "type": "p",
-            "content": "furtherQuestions",
+            "content": "firstVolumeNotice",
             "jumpLine": true
         }
     ],

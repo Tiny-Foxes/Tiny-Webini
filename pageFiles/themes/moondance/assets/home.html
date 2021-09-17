@@ -2,10 +2,12 @@
     <div class="col-md-6">
         <h1 class="page-title" data-translation="whatIsOutFox">What is Project Outfox?</h1>
 
-        <p data-translation="whatIsOutFoxExplanation"><strong>Project OutFox</strong> is a fork of StepMania. It focuses on modernizing its codebase to improve performance and graphical fidelity, refurbishing aspects of the engine that have been neglected, and to improve and expand its support for other game types and styles.</p>
-
-        <p data-translation="whoMakesOutFox">It is developed by Team Rizu — a team of community veterans and other
-            current members of the current community.</p>
+        <p data-translation="whatIsOutFoxExplanation"><strong>Project OutFox</strong> is a fork of StepMania, focused on modernizing its
+            codebase to improve performance, refurbish neglected code, and introduce new features to
+            the engine, and to improve its support for other styles of rhythm games beyond just
+            dance games to create a cross-platform “sandbox” and “museum” for the genre. It is
+            developed a team of community veterans and other current members of the current
+            community.</p>
     </div>
     <div class="col-md-6">
         <h1 class="page-title" data-translation="joinTheCommunity">Join the community</h1>
@@ -21,18 +23,31 @@
     </div>
 </div>
 
-<div class="row" id="home-screenshots">
-    <div class="col-md-4">
-        <a target="_blank"><img src="https://projectmoon.dance/storage/app/media/welcome-guide/stepmania-gameplay.jpg"
-                class="img-fluid mx-auto d-block fr-fic fr-dii"></a>
+<div id="home-screenshots">
+    <div class="row">
+        <div class="col-md-6">
+            <a href="../../../storage/app/media/welcome-guide/outfox-gameplay.jpg" target="_blank"><img
+                    src="../../../storage/app/media/welcome-guide/outfox-gameplay.jpg"
+                    class="img-fluid mx-auto d-block fr-fic fr-dii"></a>
+        </div>
+        <div class="col-md-6">
+            <a href="../../../storage/app/media/welcome-guide/outfox-music.jpg" target="_blank"><img
+                    src="../../../storage/app/media/welcome-guide/outfox-music.jpg"
+                    class="img-fluid mx-auto d-block fr-fic fr-dii"></a>
+        </div>
     </div>
-    <div class="col-md-4">
-        <a target="_blank"><img src="https://projectmoon.dance/storage/app/media/welcome-guide/stepmania-songs.jpg"
-                class="img-fluid mx-auto d-block fr-fic fr-dii"></a>
-    </div>
-    <div class="col-md-4">
-        <a target="_blank"><img src="https://projectmoon.dance/storage/app/media/welcome-guide/stepmania-bms.jpg"
-                class="img-fluid mx-auto d-block fr-fic fr-dii"></a>
+    <br>
+    <div class="row">
+        <div class="col-md-6">
+            <a href="../../../storage/app/media/welcome-guide/outfox-pms.jpg" target="_blank"><img
+                    src="../../../storage/app/media/welcome-guide/outfox-pms.jpg"
+                    class="img-fluid mx-auto d-block fr-fic fr-dii"></a>
+        </div>
+        <div class="col-md-6">
+            <a href="../../../storage/app/media/welcome-guide/outfox-bms.jpg" target="_blank"><img
+                    src="../../../storage/app/media/welcome-guide/outfox-bms.jpg"
+                    class="img-fluid mx-auto d-block fr-fic fr-dii"></a>
+        </div>
     </div>
 </div>
 
@@ -42,336 +57,232 @@
         <ul class="post-list">
             <li class="news-post">
                 <div class="post-meta">
-                    <h1><a href="https://projectmoon.dance/news/project-outfox-53-alpha-499-released">Project OutFox
-                            Alpha 4.9.9 released! (hotfix 3 available)</a></h1>
+                    <h1><a
+                            href="https://projectoutfox.com/news/alpha-v-preview-new-user-experience">Alpha
+                            V preview: New User Experience(s)</a></h1>
                     <p class="info">
-                        <span class="fas fa-clock" title="Posted at" aria-hidden="true"></span> Aug 04, 2021 &nbsp;
+                        <span class="fas fa-clock" title="Posted at" aria-hidden="true"></span> Sep
+                        07, 2021 &nbsp;
                         <span class="fas fa-tags" title="Posted in" aria-hidden="true"></span> <a
-                            href="https://projectmoon.dance/news/category/releases">Releases</a>
+                            href="https://projectoutfox.com/news/category/dev-notes">Dev Notes</a>
                     </p>
                 </div>
                 <div class="post-content">
-                    <p><strong><em>Edit 3 (2021-08-08):</em></strong> We have released a third hotfix build; we finally
-                        fixed the annoying RageFile glitch that was causing the hash system to be different from
-                        StepMania 5.1/5.0.12. Sorry about all this hassle, we fixed a wedge of bugs in the loading
-                        system, but did not expect everyone to have built massive amounts of stuff on top of these bugs
-                        being there, so we have adjusted the system so backward compatible
-                        themes/API/ScoreShare/Groovestats/etc. work again once more. A build is also avaliable for
-                        Intel-based Macintosh again; we had run into difficulties preventing an Intel-compatible build
-                        of the previous hotfix build.</p>
-                    <p><strong><em>Edit 3 (2021-08-06):</em></strong> We have released one more hotfix build, HF2. It
-                        includes a few things we were going to leave to the next release, but as we had to fix bugs in
-                        them anyway, it was easier to just add them now.</p>
-                    <h1>Alpha 4.9.9HF</h1>
-                    <p>We had pulled Alpha 4.9.9 shortly after release in order to fix some late-breaking bugs. But now
-                        that those are all taken care of, we have released <strong>Alpha 4.9.9HF</strong>!</p>
-                    <p>There are some additional highlights in this build on top of what is already in Alpha 4.9.9,
-                        including:</p>
-                    <ul>
-                        <li>We have fixed the signed macOS builds. In order to fulfill security requirements in newer
-                            macOS versions on Intel-based devices, we also performed some fixes to <code>gh</code> mode;
-                            way the notes were cast have been fixed, fever/star power has been sorted to be more
-                            GH3-like, and taps and open strums are also tweaked to be better. Please give them a try and
-                            let us know! A theme for this mode is in the works, so apologies for the barebone approach
-                            we have at the moment. It's also why we are an alpha after all...</li>
-                        <li>There were several issues with the notes loaders and how antivirus/security software apps
-                            were seeing OutFox when we were loading simfiles. We have addressed this by allowing you all
-                            to add more than one simfile (i.e. .SSC, etc.) in a song folder, cutting down on the folder
-                            rabbit hole. As we move to a more multi-game engine, this will also allow you to keep things
-                            tidy on your drive, and ensure it is a seamless experience for you all. Of course, please
-                            check the audio files are the same for the chart you are going to add to the folder, as you
-                            may find you have a nasty sync issue, but we also now support multidifficulty setups, as
-                            this is required for <code>pump</code> and <code>taiko</code> specifically.</li>
-                        <li>This hotfix also sees a tweak to the difficulty system used in OutFox. In the past it was
-                            tied to the DDR paradigm and then left to rot as one of those "StepMania Things". This
-                            however really stifled what we could do within the engine, especially with modes with
-                            different names/brackets etc. With the release of <code>gddm</code> and <code>taiko</code>
-                            we needed more difficulties than the game offered, so this has now been resolved. Themes
-                            which are based off of 5.1/5.0.x will still work due to the numbers being the same as
-                            before. If there are any issues with your theme, do let us know, but we have tested several
-                            with no issues.</li>
-                        <li>We now support the <code>#VOLUME</code> and <code>#PAN</code> parameters for keysounds in
-                            BMS-derived formats.</li>
-                        <li>We have fixed a <em>17 year-old</em> bug where the engine would attempt to run commands on
-                            tweens that don't exist during transitions.</li>
-                    </ul>
-                    <p><em>The original post follows:</em></p>
-                    <hr>
-                    <p><img src="https://projectmoon.dance/storage/app/uploads/public/610/494/aa0/610494aa0b4fd502112956.png"
-                            alt="Common splash.png" class="img-fluid mx-auto d-block"></p>
-                    <p><strong>Project OutFox Alpha 4.9.9</strong> has been released! Given how long it's been since our
-                        last alpha release, there's a <strong>lot</strong> to go over with this version. This is a
-                        summary of most of the major changes; you can read the complete changelog on <strong><a
-                                href="https://outfox.wiki/releases/A4.9.9HF/">on OutFox.wiki</a></strong>,</p>
-                    <h1>Gameplay</h1>
-                    <h2>Game types</h2>
-                    <p><img src="https://projectmoon.dance/storage/app/uploads/public/610/495/fe2/610495fe2013c676790618.png"
-                            alt="modes-diagram.png" class="img-fluid mx-auto d-block"></p>
-                    <p>Project OutFox has begun to position itself as a multi-game engine, designed to be more of a
-                        working museum dedicated to preserving the history of rhythm gaming. We have been building upon
-                        and fixing game types that were inherited from the StepMania codebase, as well as implementing
-                        new game types that have never been implemented in StepMania before. Carrying on from 4.9.8,
-                        there have been various bug fixes and enhancements to some of our non-<code>dance</code> modes,
-                        as well as one brand new mode:</p>
-                    <ul>
-                        <li><code>beat</code>: There are bug fixes for the BMS loader array and missing difficulties.
-                        </li>
-                        <li><code>dance</code>: We have preliminary support for a new hold type known as a
-                            <em>minefield</em> (also colliqually known as a "mine hold"). They are a hold that is a
-                            mine, penalizing you each time you press the corresponding input.
-                        </li>
-                        <li><code>ez2</code>: A new default noteskin has been added.</li>
-                    </ul>
-                    <p><img src="https://projectmoon.dance/storage/app/uploads/public/610/4bc/62c/6104bc62c3220910735277.jpg"
-                            alt="127696702-dcbe2713-3976-4396-8ca4-e64784957d84.jpg" class="img-fluid mx-auto d-block">
+                    <p>"Alpha V" is our internal codename for the next major alpha of Project
+                        OutFox, Alpha 5.0; we have a number of new things planned for it, and one of
+                        them is a new default theme.</p>
+                    <p>While Soundwaves served us well as a transitional interface, it was still
+                        built around many of the same behaviours associated with StepMania,
+                        including a "one size fits all" approach to handling game types that is less
+                        than ideal, and dizzying options menus that even <em>we</em> have trouble
+                        navigating. Long story short, on Alpha V we plan to replace Soundwaves with
+                        a new default theme, which will be modern and better-suited to our current
+                        direction.</p>
+                    <p>Actually, no. There will not just be <em>one</em> replacement for Soundwaves,
+                        or two, or three. Our goal will be to give <em>every</em> major game type
+                        its own default theme. Each game has its own requirements, including
+                        different ways we need to render gameplay, different behaviours we have to
+                        simulate, and so on, so it quickly becomes unwieldy to <a
+                            href="https://www.youtube.com/watch?v=jkz7bnYfuOI">put everything in the
+                            square hole</a> as we have in the past. A general goal with these new
+                        themes will be a narrower focus, modularity, and improving support for
+                        different input methods. <strong>We are also aiming to support
+                            frequently-requested features, such as song favourites and different
+                            sorting methods.</strong></p>
+                    <p>In this post, we will be previewing just a few of the new themes we have been
+                        working on, with a focus on those that have had the most in-engine work so
+                        far. You may have already seen in-game footage of some of these new themes
+                        in the OutFox Serenity trailer, or teased in discussions on our Discord
+                        server. </p>
+                    <p><em>Some of these images are mockups, and in any case the designs are subject
+                            to change based on feedback and implementation. If you have any
+                            feedback, ideas, or questions regarding these Alpha V, we have added a
+                            new <code>#alpha5-wishlist</code> channel to our Discord server where
+                            you can discuss them.</em></p>
+                    <h2>pump</h2>
+                    <p>Our new <code>pump</code> theme features a more familiar layout and control
+                        scheme, integrated with OutFox features such as our chart statistics and NPS
+                        displays, as well as mouse/touchscreen support.</p>
+                    <p>All screenshots are in-engine.</p>
+                    <p><img src="/storage/app/media/alpha-v-themes/av-pump-music.jpg" alt=""
+                            class="img-fluid mx-auto d-block">
+                        <img src="/storage/app/media/alpha-v-themes/av-pump-difficulty.jpg" alt=""
+                            class="img-fluid mx-auto d-block">
+                        <img src="/storage/app/media/alpha-v-themes/av-pump-game2.jpg" alt=""
+                            class="img-fluid mx-auto d-block">
+                        <img src="/storage/app/media/alpha-v-themes/av-pump-eval.png" alt=""
+                            class="img-fluid mx-auto d-block">
                     </p>
-                    <ul>
-                        <li>
-                            <p><code>gddm</code>: </p>
-                            <ul>
-                                <li>We have added a parser for loading DTX files; we have planned to 'straddle' support
-                                    for the DTXMania NX/Ver. K layouts for the specified channels from the
-                                    documentation, as these appear to be the most popular branches of this. It will be
-                                    improved in time, as we get better knowledge of this system. For more information on
-                                    supported DTX/BMS/PMS channels, see the <a
-                                        href="https://outfox.wiki/releases/A4.9.9/#current-bmspmsdtx-notedata-support-as-of-499">related
-                                        section on the official changelog</a>.</li>
-                                <li>We also support the combined" lane system which adds lane 2 and lane 3’s extra
-                                    notes, and Real mode (again, REAL filenames are yet to be parsed as such, the engine
-                                    makes a ‘guess’ on this!)</li>
-                                <li><code>gddm</code> still needs a lot of work and optimisation before we will consider
-                                    it ‘ready’, so do expect the odd quirk or weird behaviour, and let us know what you
-                                    think/would like to see as we define the mode and its featureset and support.We will
-                                    be working on the <code>gdgf</code> parser in the coming months so that the
-                                    guitar/bass charts will work as well.</li>
-                                <li>We do not support XA file decoding at this time, we are looking into options. If you
-                                    have a DTX file with XA files contained, they will just be played as silence, but
-                                    won’t crash the game.</li>
-                                <li><del>The game does not currently support the <code>#PAN</code> and
-                                        <code>#VOLUME</code> configurations as of this alpha, so some keysounds will be
-                                        louder than expected. Apologies for this in advance; we wanted to get a release
-                                        out as it’s been so long, so this is still being worked on.</del>
-                                    <ul>
-                                        <li><code>#PAN</code> and <code>#VOLUME</code> are now supported on 4.9.9HF!
-                                            They are completely supported in <code>gddm</code> from the parser, (do
-                                            reset your cache of course!) and they also work in
-                                            <code>beat</code>/<code>popn</code>. <code>taiko</code> will need the
-                                            support as well, so shout out to Jous for putting up with my waaaahh-luigi
-                                            on getting it added to the game. This build also supports the hidden
-                                            chips/keysounds for <code>gddm</code> and we'll work on getting the final
-                                            compatibility added in due course.
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <p><code>gdgf</code>: Community member yaladre has contributed a new <code>DTX</code>
-                                noteskin with a more familiar appearance.</p>
-                        </li>
-                        <li>
-                            <p><code>gh</code>: A note positioning bug has been fixed, while the gameplay screen in
-                                Soundwaves has been tidyed.</p>
-                        </li>
-                    </ul>
-                    <p><img src="https://projectmoon.dance/storage/app/uploads/public/610/4ba/46d/6104ba46d2793405676888.jpg"
-                            alt="127721393-c4cd720d-b98a-4c60-b592-d36b34be31e7.jpg" class="img-fluid mx-auto d-block">
+                    <h2>dance</h2>
+                    <p>The new <code>dance</code> theme is also being designed with
+                        mouse/touchscreen support in mind, carrying over popular features from
+                        Soundwaves, but with an overhauled codebase, a revamped workflow, and <a
+                            href="/storage/app/media/alpha-v-themes/av-dance-portrait.jpg">official
+                            support for vertical aspect ratios (portrait mode)</a>. The color scheme
+                        system from Soundwaves is also being revamped, making it easier to share
+                        your creations with the community.</p>
+                    <p>All screenshots are mockups except for the gameplay screenshot seen below,
+                        which is in-engine.</p>
+                    <p><img src="/storage/app/media/alpha-v-themes/av-dance-music.jpg" alt=""
+                            class="img-fluid mx-auto d-block">
+                        <img src="/storage/app/media/alpha-v-themes/av-dance-difficulty-a.jpg"
+                            alt="" class="img-fluid mx-auto d-block">
+                        <img src="/storage/app/media/alpha-v-themes/av-dance-difficulty-b.jpg"
+                            alt="" class="img-fluid mx-auto d-block">
+                        <img src="/storage/app/media/alpha-v-themes/av-dance-gameplay-inengine.jpg"
+                            alt="" class="img-fluid mx-auto d-block">
                     </p>
-                    <ul>
-                        <li><code>para</code>: We have added a new eight-sensor style, adding back-left, back, and
-                            back-right directions. This mode was originally designed for the arcade cabinet for when the
-                            player twirls or turns, but was never actually implemented. The sensors for the back are
-                            actually there! For those who feel adventurous, we will be publishing some information on
-                            how to make your own 360-degree 8 sensor controller in due course.</li>
-                    </ul>
-                    <p><img src="https://projectmoon.dance/storage/app/uploads/public/610/4b7/cd0/6104b7cd0f866334554341.jpg"
-                            alt="127715610-ba677562-b567-4ef6-b56b-293b199d75ae.jpg" class="img-fluid mx-auto d-block">
+                    <h2>para</h2>
+                    <p>The <code>para</code> theme is designed to reflect the aesthetic of Eurobeat,
+                        downplaying scoring and visual chrome to put a more prominent focus on the
+                        gameplay and routines.</p>
+                    <p>All screenshots are in-engine.</p>
+                    <p><img src="/storage/app/media/alpha-v-themes/av-para-songs.jpg" alt=""
+                            class="img-fluid mx-auto d-block">
+                        <img src="/storage/app/media/alpha-v-themes/av-para-gameplay.jpg" alt=""
+                            class="img-fluid mx-auto d-block">
                     </p>
-                    <ul>
-                        <li><code>popn</code>:
-                            <ul>
-                                <li>This mode also had a few tweaks and adjustments mainly in how keysounds are loaded
-                                    within the game, which should make it smoother overall.</li>
-                                <li>A bug was fixed that prevented some seven-button charts from being parsed correctly.
-                                </li>
-                                <li>In addition, we have also added two-player (versus) and 18-button (double) modes!
-                                    This was not available on the original client, but it did always irk us how there
-                                    were never two-player options other than three-button battle. We plan to have battle
-                                    mode, as well as a dedicated experience for this game type, in a future build. There
-                                    is no PMS/PME support for this style yet.</li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <p><img src="https://projectmoon.dance/storage/app/uploads/public/610/4b6/6e6/6104b66e68135477733037.jpg"
-                            alt="126884299-09ee5a5c-dfa5-4e4e-bbfa-6d9d157fcd5f.jpg" class="img-fluid mx-auto d-block">
+                    <h2>beat</h2>
+                    <p>The <code>beat</code> mode is also set to receive a major overhaul, and we
+                        have some internal design concepts with a redesigned user experience, and a
+                        steampunk-inspired design.</p>
+                    <p>All screenshots are mockups.</p>
+                    <p><img src="/storage/app/media/alpha-v-themes/av-bms-gameplay.jpg" alt=""
+                            class="img-fluid mx-auto d-block">
+                        <img src="/storage/app/media/alpha-v-themes/av-bms-eval.jpg" alt=""
+                            class="img-fluid mx-auto d-block">
                     </p>
-                    <ul>
-                        <li><code>pump</code>:
-                            <ul>
-                                <li>We have fixed the scoring bug that was in the previous build; thank you for those
-                                    who took the time to report the issues. Keep in mind that Soundwaves still uses
-                                    <code>dance</code> paradigms for scoring, but other themes that use different
-                                    scoring systems based on the official games should work correctly now.
-                                </li>
-                                <li>The tickcount for combos on holds has been tweaked to work correctly, as there was a
-                                    miscalculation in the offset math inherited from upstream. This now behaves as
-                                    expected.</li>
-                                <li>We have added support for co-op charts; the included co-op noteskin currently
-                                    supports up to five different players, but charts can support up to ten.
-                                    <ul>
-                                        <li>The player numbers on the noteskins are separately labeled, so with a few
-                                            adjustments and extra assets, you will be able to update any noteskin to
-                                            work with co-op. Co-op charts made on StepF2/StepP1 should work on OutFox,
-                                        </li>
-                                        <li>Co-op charts made on StepF2/StepP1 should work on OutFox, however, better
-                                            note types are currently being developed by Jousway so that there can be
-                                            more than four real players defined. Stay tuned!</li>
-                                        <li>We're still working on improving SF2/SP1 custom charts parsing. Except for a
-                                            few charts, you can play the majority of content made for it on OutFox with
-                                            no problems. As always, if you find any oddities make sure you report them
-                                            to us!</li>
-                                        <li>Those of you who have reported that we still have a ‘superb’ bug on holds,
-                                            this will be fixed when we introduce the new <code>piu</code> mode .
-                                            Remember that the <code>pump</code> mode is getting quality of life updates
-                                            for now, before we move over to updating things properly in the future.</li>
-                                        <li>Micro/mini-holds also do not trigger misses/cause a weird tick to happen
-                                            anymore, and there also are no ‘phantom’ mines in long (5+ measure) holds -
-                                            this was an oddity which has been fixed now.</li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <p>Last but not least, we have added a brand-new game type as well, <code>taiko</code> (also
-                        referred to in the context of OutFox as "TaiTai"). It simulates a popular rhythm game where you
-                        hit a drum in its face.</p>
-                    <p><img src="https://projectmoon.dance/storage/app/uploads/public/610/4bb/63e/6104bb63e30e7014970098.jpg"
-                            alt="127720652-944671e6-b52d-46f1-9924-fe41d0e18349.jpg" class="img-fluid mx-auto d-block">
+                    <h2>taiko</h2>
+                    <p>This mode will feature a theme comprised of original assets, arranged to
+                        resemble a popular franchise involving a Japanese percussion instrument.
+                        Though, we've also brought in some of our original ideas, including an
+                        optional stats and NPS graph to show just how much of a storm you're
+                        drumming up.</p>
+                    <p>All screenshots are mockups.</p>
+                    <p><img src="/storage/app/media/alpha-v-themes/av-taitai-music.jpg" alt=""
+                            class="img-fluid mx-auto d-block">
+                        <img src="/storage/app/media/alpha-v-themes/av-taitai-gameplay.jpg" alt=""
+                            class="img-fluid mx-auto d-block">
                     </p>
-                    <p>As with <code>gh</code> on the previous alpha, this is a "preliminary" implementation. Some of
-                        the quirkier parts of this mode are a work in progress; bear with us as we also write new
-                        parsers for this mode, and develop a dedicated theme/interface for it. We plan to add support
-                        for the special note types and other effects in the game, as well as improve timing and other
-                        bits and pieces that are still yet to do. We still have the scoring and timing system to finish,
-                        along with effects on double notes/taps and the "roll" notes which you hit as much as you can.
-                        The autogen for this mode has been rewritten by Jousway to generate charts more approriate for
-                        the game from existing charts in other modes, so that you don't get odd holds/overlaps in
-                        things.</p>
-                    <p>Feel free to give it a try and let us know what you think!</p>
-                    <p>All game types have access to features such as the built-in chart editor and modifier systems,
-                        allowing you to extend your content to as many as <strong>56 styles in 15 gametypes</strong> as
-                        of this release.</p>
-                    <h1>Technical changes</h1>
-                    <h2>MIDI input</h2>
-                    <p>Due to the interest we had been getting from the past two alpha releases in the form of
-                        <code>gddm</code> and <code>techno</code>, several players that were not on Windows did inquire
-                        about the possibility of there being a new MIDI driver available for Mac and Linux users, So we
-                        decided as a team to move forward and produce one. This enables you to play Project OutFox with
-                        MIDI instruments and controllerd, such as electronic drums, keyboards, DJ mixers, and a
-                        prototype mini FSR pad we made using a Teensy LC and some tiny FSR sensors.
+                    <h2>gddm/gdgf</h2>
+                    <p>Also internally known as "concert", this theme is designed for both
+                        <code>gdgf</code> and <code>gddm</code>, and has a visual aesthetic inspired
+                        by live music. The gameplay screenshots showcase a combination of noteskins,
+                        theme-level code, and new theme features introduced on Alpha 4.9.10 that
+                        enable a more familiar gameplay layout.</p>
+                    <p>All screenshots are mockups except for the gameplay screenshot seen below,
+                        which is in-engine.</p>
+                    <p><img src="/storage/app/media/alpha-v-themes/av-gddm-songs.jpg" alt=""
+                            class="img-fluid mx-auto d-block">
+                        <img src="/storage/app/media/alpha-v-themes/av-gddm-difficulty.jpg" alt=""
+                            class="img-fluid mx-auto d-block">
+                        <img src="/storage/app/media/alpha-v-themes/av-gddm-gameplay.jpg" alt=""
+                            class="img-fluid mx-auto d-block">
+                        <img src="/storage/app/media/alpha-v-themes/av-gdgf-gameplay.jpg" alt=""
+                            class="img-fluid mx-auto d-block">
                     </p>
-                    <p><img src="https://projectmoon.dance/storage/app/uploads/public/610/4be/85e/6104be85e565a546761918.jpg"
-                            alt="IMG_20210724_2026112.jpg"></p>
-                    <p>It uses the PortMidi library, and there is no need to have any extra applications "translating"
-                        it to keystrokes (unless you're doing MIDI via an iPhone something like that of course), but
-                        native MIDI controllers work a treat. If you have a midi device and want to try this out, you
-                        will need to load up your preferences.ini in your save folder, locate the inputdrivers= part,
-                        and then make sure it looks like this inputdrivers=portmidi,SDL</p>
-                    <p>This driver works on Windows, Linux, ARM (rPi and Rockchip aarch64 SoCs), and macOS. To enable
-                        the driver, use the line <code>InputDrivers=SDL,portmidi</code> in Preferences.ini. We have
-                        currently coded it for a single device at a time, but do let us know if you feel there is a need
-                        for multiple device support, or if you find a device that doesn'’'t behave.</p>
-                    <h2>Linux</h2>
-                    <p>We have added a preference, <code>TurnOffWMCompositor</code>, to disable compositing effects in
-                        window managers when Project OutFox is running.</p>
-                    <p>We have also fixed a renderer bug that was causing edge case crashes under KDE Plasma Desktop,
-                        and added a stub for an upcoming Pipewire audio driver.</p>
-                    <h2>macOS</h2>
-                    <p>On macOS, our builds are now signed and notarized. You no longer have to fiddle with
-                        Gatekeeper/quarantine/etc. to run Project OutFox on your Mac. You can now just download and
-                        install it as you would other applications.</p>
-                    <p>We also fixed an edge case lag spike on M1 Macbook Air models when using a Bluetooth audio device
-                        or controller.</p>
-                    <h2>Windows</h2>
-                    <p>There has also been work done on a small side part of the game, while we have been waiting for a
-                        fix from upstream in regards to the "polling/framerate" "issue that a lot of folks have helping
-                        us diagnose for some time. The long and the short of the issue, it meant on some songs, the
-                        input would skew towards the update loop rather than honouring its timestamp, thus producing
-                        spikes on the scoring graph on the results screen, and make a odd looking ‘stair’ display on the
-                        scatterplot of the steps and judgements taken.</p>
-                    <p>To resolve this while we’re waiting a fix, we have reimplemented the old legacy driver that was
-                        on 5.2/5.1 and adapted it for OutFox. This driver can be tempremental, but it seemed to behave
-                        with the devices we tested it with. If you tend to find that your input is affected with the
-                        message loop issue, you can set up the driver with the following instructions:</p>
-                    <ul>
-                        <li>Open Preferences.ini in your Save folder</li>
-                        <li>Locate the line <code>InputDrivers</code></li>
-                        <li>Change the line to <code>InputDrivers=legacy,minisdl</code></li>
-                        <li>If you wish to use the new portmidi driver as well you can use
-                            <code>InputDrivers=legacy,minisdl,portmidi</code>
-                        </li>
-                    </ul>
-                    <p>This will allow you to run the game with minimal resources, keeping vsync on, and should remove
-                        any previous issues of FPS/rate/polling problems. When we have the fix from upstream, we’ll
-                        revisit and modernise this with the newer drivers and processes.</p>
-                    <p>On the Test Input screen, you will see a new Window Handler ‘Aux’ driver. This is just the driver
-                        that manages the window controls, maximises, fullscreens, etc, so no need to worry about it.
-                        This will also show you that you have the correct drivers selected in the InputDrivers setting.
+                    <h2>gh</h2>
+                    <p>Our new <code>gh</code> theme will have a more streamlined look and feel, and
+                        a more familiar workflow. We have also been testing out a new system for
+                        customizable "backplates" for notefields; while it was designed with
+                        <code>gh</code> in mind, it is also usable in other game types with a few
+                        simple theme metrics.</p>
+                    <p>All screenshots are mockups. Backplates are avaliable now in a nightly build.
                     </p>
-                    <h2>Rate and Pitch</h2>
-                    <p>Due to an overwhelming set of requests, we have taken time to fix and modernise the rate/haste
-                        system which had been broken for a bit since this project began.</p>
-                    <p>Pitch seemed to be a lottery (though we had not seen it work) and all the rate mod used to do was
-                        seemingly speed up the song with no other effect or option being honoured.</p>
-                    <p>We have fixed the way the off/speed/pitch/speed and pitch options work, so they actually work.
-                        This took quite a bit of time to fix the internal pipelines for these, but the end effect is
-                        definitely fun. Thanks to Squirrel, Jousway and Jose for bringing this one up the pipeline to
-                        get it done for this release! To ensure compatibility with legacy themes, the system ‘defaults’
-                        to how it was in 5.0.12, with a 0.01x increase, and being on the main menu as folks requested.
-                        This is a long overdue Quality of Life update for this, so we’re really pleased that its done.
+                    <p><img src="/storage/app/media/alpha-v-themes/av-gh-songs.jpg" alt=""
+                            class="img-fluid mx-auto d-block">
+                        <img src="/storage/app/media/alpha-v-themes/av-gh-diff.jpg" alt=""
+                            class="img-fluid mx-auto d-block">
                     </p>
-                    <p>Thanks to the stamina players that popped in to request this, and to mattm for saying that most
-                        wanted a speed <em>and</em> pitch option, which we have called ‘both’ internally to signify this
-                        change.</p>
-                    <h2>Default theme</h2>
-                    <ul>
-                        <li>We reordered the Select Game menu to move prominent game types closer to the top, and
-                            lesser-known/niche games towards the bottom. Please give us feedback if you feel a mode
-                            needs more representation/love!</li>
-                        <li>We have been shortening and toning down excessive transitions and animations to make the
-                            menus in the Soundwaves theme faster. </li>
-                        <li>We added the rate and sound effect settings to the first screen of Player Options (in
-                            addition to its historic location on Song Options) to make them easier to find. </li>
-                        <li>A contributor to Tiny-Foxes' Soundwaves Community branch has added the capability for
-                            Soundwaves color schemes to specify custom difficulty colors. Whilst integrating this
-                            feature, we have also added all
-                            *The gameplay screen in <code>gh</code> mode has been tidied up to put more of a focus on
-                            the notefield.</li>
-                    </ul>
-                    <h1>Release notes and download</h1>
-                    <p>You can see the full changelog for Alpha 4.9.9 <a
-                            href="https://outfox.wiki/releases/A4.9.9HF3/">on OutFox.wiki</a>, which has details on the
-                        other improvements and bug fixes featured in this build.</p>
-                    <p><a class="btn btn-primary btn-lg"
-                            href="https://projectmoon.dance/releases/5.3.0-alpha-4.9.9HF3">Download</a></p>
-                    <p>Give all of the new features and modes a try and be sure to give us your feedback! If you
-                        encounter <em>any</em> bug in the game, please report them on our <a
-                            href="https://github.com/TeamRizu/OutFox/issues">bug tracker</a> or our Discord server. We
-                        won't be able to fix bugs that are not reported to us. If you feel adventerous, also consider
-                        requesting access to our nightly build testing programme, as we are seeking testers for builds
-                        containing major internal changes.</p>
-                    <p>You can also visit <a href="https://www.reddit.com/r/OutFox/">r/OutFox</a> on Reddit for support
-                        and discussion of Project OutFox, and <a
-                            href="https://www.twitch.tv/directory/game/Project%20OutFox">stream Project OutFox on
-                            Twitch</a>.</p>
-                    <p>This release of Project OutFox is dedicated to the memory of SHIKI, a Japanese musician who was
-                        an influential figure in the worlds of doujin trance, BMS, and rhythm game music. Our release
-                        artwork for Alpha 4.9.9 pays homage to Reach's classic simfile for "AIR"—one of SHIKI's most
-                        well-known songs.</p>
+                    <h2>pomu</h2>
+                    <p>And finally, Halloween is coming a little early! With a classic design,
+                        original characters, and being the first <code>PMS/pomu</code> client with
+                        multiplayer support, we hope that you'll have a lot of fun with this.</p>
+                    <p>All screenshots are mockups.</p>
+                    <p><img src="/storage/app/media/alpha-v-themes/av-pms-music.jpg" alt=""
+                            class="img-fluid mx-auto d-block">
+                        <img src="/storage/app/media/alpha-v-themes/av-pms-difficulty.jpg" alt=""
+                            class="img-fluid mx-auto d-block">
+                        <img src="/storage/app/media/alpha-v-themes/av-pms-gameplay-1p.jpg" alt=""
+                            class="img-fluid mx-auto d-block">
+                        <img src="/storage/app/media/alpha-v-themes/av-pms-gameplay-2p.jpg" alt=""
+                            class="img-fluid mx-auto d-block">
+                    </p>
+                    <p>This is just a small taste of what's to come; we will have more to share with
+                        you over the next few months, so stay tuned! Once again, if you have any
+                        feedback or suggestions about Alpha V, visit the
+                        <code>#alpha5-wishlist</code> channel on the Project OutFox Discord server.
+                    </p>
+                </div>
+            </li>
+            <li class="news-post">
+                <div class="post-meta">
+                    <h1><a href="https://projectoutfox.com/news/new-community-policies">New
+                            community policies</a></h1>
+                    <p class="info">
+                        <span class="fas fa-clock" title="Posted at" aria-hidden="true"></span> Aug
+                        31, 2021 &nbsp;
+                        <span class="fas fa-tags" title="Posted in" aria-hidden="true"></span> <a
+                            href="https://projectoutfox.com/news/category/announcements">Announcements</a>,&nbsp;
+                        <a href="https://projectoutfox.com/news/category/community">Community</a>
+                    </p>
+                </div>
+                <div class="post-content">
+                    <p>Dear OutFox Community,</p>
+                    <p>As we move closer towards the release of Alpha V, and after the issues we had
+                        with the release of 4.9.9, we would like to address some of the things that
+                        as a team we have noticed over the past few months. As a community, we're
+                        not sure if the addition of a Discord server has caused some of these issues
+                        and behaviour, or if it's the fact that we are more easily accessible than
+                        if we were on a forum or IRC channel. We are writing this post to make our
+                        stance and that of our staff and volunteers, as well as those who contribute
+                        time or content to make the game better.</p>
+                    <p>We love OutFox, and still love a lot of the things that StepMania was. The
+                        name change was needed so we can sign our MacOS (and soon Windows) builds.
+                        There is no conspiracy about moving away from the core playerbase. There are
+                        no other issues about us 'abandoning' our dedication and efforts on
+                        improving StepMania via it's own repository in the future with some form of
+                        update from our team as discussed with Shakesoda. There is also no
+                        conspiracy theory about us hating 'dance' based games. Just because 4/5
+                        panel is not literally everything we live and breathe does not make it
+                        correct for you to throw out misinformation or treat us in a way that moves
+                        toward literal cyberbullying to the team. We understand your passion and
+                        drive for the modes that you play, but this does not give you any right to
+                        try to enforce that view in a negative manner towards us.</p>
+                    <p>What we don't love at all is continued demands and entitlement - something
+                        that over the past two to three months has begun to get extremely volatile
+                        from certain communities and individuals. OutFox is not our life or
+                        existence. OutFox also is not our job. We code and develop (and support)
+                        OutFox as our fun and to drive us to do better. We will always do our best
+                        to fix things or do things as fast as possible, including updates, bugfixes,
+                        support, handling feature requests, supporting legacy 5.1/5.0 code,
+                        providing support for players who don't even use OutFox, etc. This also is
+                        true when that demand is your first or one of your only interactions with
+                        our team or server. </p>
+                    <p>Before you ask us, (or anyone else in your life) to do something for you,
+                        please take time to carefully consider what you are asking for, and where
+                        this expectation has come from. We are extremely patient and generous here
+                        at Project OutFox, so some expectation of us for very little in return is
+                        something we have become used to; including community support, bug support,
+                        even code support and providing test builds to fix issues folks have. What
+                        you are not entitled to however, is to expect some defined service level or
+                        response time, or to demand information at a whim. We do things as quickly
+                        as constraints of life allow. Whether that be minutes, hours, days or weeks,
+                        you have no entitlement to expect one or the other. The game gets
+                        improvements as and when - if you cannot see the improvements this brings to
+                        your specific mode of play, then that is a shame. As we improve the engine
+                        it benefits more than just a specified mode, and this is the future of
+                        OutFox. It will become more than what it was when we took the reins, and
+                        that is to support a brand new rhythm game sandbox moving forward.</p>
+                    <p>We thank you for continuing to support the project, but for the sanity of the
+                        team, we felt this issue needs to be addressed before it gets out of hand,
+                        or worse we suffer from the demands of people who do not consider how their
+                        actions affect the team.</p>
+                    <p>~Project OutFox Team</p>
                 </div>
             </li>
         </ul>
-        <p><a href="https://projectmoon.dance/articles" class="btn btn-lg btn-primary">More
+        <p><a class="btn btn-lg btn-primary">More
                 articles</a></p>
         <p> </p>
     </div>

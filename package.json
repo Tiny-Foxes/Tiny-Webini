@@ -1,6 +1,6 @@
 {
   "name": "tiny-webini",
-  "version": "1.8-beta",
+  "version": "1.9-beta",
   "description": "Translate OutFox website like OutFox",
   "main": "src/index.js",
   "dependencies": {
