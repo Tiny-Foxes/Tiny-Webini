@@ -1,4 +1,11 @@
-# Webini
+# Webini (ARCHIVED)
+
+## THE PROJECT IS NOW ARCHIVED AND WILL NOT LONGER BE UPDATED
+
+The Project OutFox backend has been updated and no longer requires such hacky tools for translation development, if you wish to translate https://projectoutfox.com/, please contact us under our [Discord Server](https://discord.gg/cN4TjgQdcA)
+
+** **
+
 
 Translate [OutFox Website](https://projectmoon.dance/) with the same style StepMania uses for its translations.
 
